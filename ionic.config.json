@@ -1,0 +1,7 @@
+{
+  "name": "TriviaTitan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
