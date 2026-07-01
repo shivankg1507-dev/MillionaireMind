@@ -1,0 +1,58 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="video-container" *ngIf="!showLadder">
+    <video #introVideo 
+           src="assets/intro.mp4" 
+           autoplay 
+           playsinline 
+           class="intro-video" 
+           [style.opacity]="isVideoPlaying ? 1 : 0"
+           (playing)="videoPlaying()"
+           (ended)="videoEnded()">
+    </video>
+    
+    <div class="play-overlay" *ngIf="showPlayButton" (click)="manualPlay()">
+      <ion-button color="warning" size="large" shape="round">
+        <ion-icon name="play-circle-outline" slot="start"></ion-icon>
+        Play Intro Video
+      </ion-button>
+    </div>
+    
+    <div class="actions">
+      <ion-button color="light" fill="clear" (click)="skipVideo()">Skip Intro</ion-button>
+    </div>
+  </div>
+
+  <div class="ladder-container" *ngIf="showLadder">
+    <div class="studio-container" (click)="startGame()">
+      <div class="light-beams"></div>
+      <div class="hot-seat-glow"></div>
+
+      <!-- Display Lifelines -->
+      <div class="lifelines-display">
+        <div *ngFor="let lifeline of gameService.lifelines" class="lifeline-icon-wrapper" [class.used]="lifeline.used">
+          <ion-icon [name]="lifeline.icon"></ion-icon>
+          <ion-icon name="close" *ngIf="lifeline.used" class="cross-mark"></ion-icon>
+        </div>
+      </div>
+
+      <div class="money-tree-container" (click)="$event.stopPropagation()">
+        <div class="money-tree-scroll">
+          <div class="ladder-item" *ngFor="let prize of prizeLadder; let i = index" 
+               [class.milestone]="prize === '3,20,000' || prize === '1 CRORE' || prize === '7 CRORE'">
+            <span class="q-num">{{ prizeLadder.length - i }}</span>
+            <span class="q-dot" *ngIf="prize !== '3,20,000' && prize !== '1 CRORE' && prize !== '7 CRORE'">♦</span>
+            <span class="q-dot" *ngIf="prize === '3,20,000' || prize === '1 CRORE' || prize === '7 CRORE'"></span>
+            <span class="q-prize">
+              <span *ngIf="!prize.includes('CRORE')">₹ </span>{{ prize }}
+            </span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tap-prompt">
+        TAP ANYWHERE TO START
+      </div>
+    </div>
+  </div>
+</ion-content>

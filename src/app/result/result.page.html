@@ -1,0 +1,55 @@
+<ion-content [fullscreen]="true" class="result-bg">
+
+  
+  <div class="result-container">
+    <div class="header">
+      <h1 *ngIf="gameService.currentPrize !== '7 CRORE'">Game Over!</h1>
+      <h1 *ngIf="gameService.currentPrize === '7 CRORE'" class="crorepati-title">ADBHUT! AVISHWASNIYA! AVISMARNIYA!</h1>
+    </div>
+    
+    <!-- Normal Result Card -->
+    <div class="prize-card" *ngIf="gameService.currentPrize !== '7 CRORE'">
+      <h2>Total Winnings</h2>
+      <div class="prize-amount">
+        <span *ngIf="gameService.currentPrize !== '0'">₹ </span>
+        <span *ngIf="gameService.currentPrize === '0'">₹ </span>
+        {{ gameService.currentPrize }}
+      </div>
+      <p *ngIf="gameService.currentQuestionIndex < 5">Better luck next time!</p>
+      <p *ngIf="gameService.currentQuestionIndex >= 5">Well played!</p>
+    </div>
+
+    <!-- The 7 Crore Cheque -->
+    <div class="cheque-container" *ngIf="gameService.currentPrize === '7 CRORE'">
+      <div class="cheque">
+        <div class="cheque-header">
+          <div class="bank-name">Luti Piti Bank</div>
+          <div class="date">Date: {{ currentDate | date:'dd/MM/yyyy' }}</div>
+        </div>
+        <div class="cheque-body">
+          <div class="pay-to">
+            <span class="label">Pay:</span>
+            <span class="payee-name">{{ gameService.playerName || 'Superstar' }}</span>
+          </div>
+          <div class="amount-words">
+            <span class="label">Rupees:</span>
+            <span class="words">Seven Crore Only</span>
+          </div>
+          <div class="amount-box">
+            ₹ 7,00,00,000 /-
+          </div>
+        </div>
+        <div class="cheque-footer">
+          <div class="signature">
+            <div class="sign-line">Seth Kangal Das</div>
+            <div class="sign-title">Chief Bankrupt Officer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <ion-button expand="block" shape="round" color="warning" class="restart-btn" (click)="playAgain()">
+      Play Again
+    </ion-button>
+  </div>
+</ion-content>

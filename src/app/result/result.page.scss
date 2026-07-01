@@ -1,0 +1,215 @@
+.result-bg {
+  --background: radial-gradient(circle at center, #2e1e5b 0%, #0d0a21 100%);
+  color: white;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 5px;
+}
+
+.header {
+  h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffcf40;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+  }
+}
+
+.prize-card {
+  background: linear-gradient(180deg, #1b143a, #0d0a21);
+  border: 2px solid #ffcf40;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 15px;
+  box-shadow: 0 10px 30px rgba(255, 207, 64, 0.3);
+  
+  h2 {
+    color: #c7bbf4;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .prize-amount {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #28a745;
+    text-shadow: 0 2px 10px rgba(40, 167, 69, 0.5);
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+}
+
+.restart-btn {
+  width: 100%;
+  max-width: 250px;
+  --border-radius: 30px;
+  --box-shadow: 0 4px 15px rgba(255, 207, 64, 0.4);
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 5px;
+  --background: linear-gradient(90deg, #ffcf40, #ff9d00);
+  --color: #110d21;
+}
+
+.crorepati-title {
+  font-size: 2.2rem !important;
+  color: #ffcf40 !important;
+  text-shadow: 0 0 15px #ffcf40, 0 0 30px #ff0000 !important;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.cheque-container {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  perspective: 1000px;
+  animation: chequeIn 2s ease-out;
+}
+
+@keyframes chequeIn {
+  0% { transform: scale(0) rotateX(45deg); opacity: 0; }
+  70% { transform: scale(1.05) rotateX(0deg); opacity: 1; }
+  100% { transform: scale(1) rotateX(0deg); opacity: 1; }
+}
+
+.cheque {
+  background: repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #ffffff 10px,
+    #f0f8ff 10px,
+    #f0f8ff 20px
+  );
+  border: 4px solid #b8860b;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.5), inset 0 0 20px rgba(184,134,11,0.2);
+  color: #333;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle, transparent 20%, rgba(255, 215, 0, 0.1) 100%);
+    pointer-events: none;
+  }
+}
+
+.cheque-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #b8860b;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+  .bank-name {
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: #000080;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .date {
+    font-weight: bold;
+    color: #555;
+  }
+}
+
+.cheque-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+  .label {
+    font-weight: bold;
+    color: #666;
+    margin-right: 10px;
+  }
+
+  .pay-to {
+    border-bottom: 1px dashed #999;
+    padding-bottom: 5px;
+    
+    .payee-name {
+      font-family: 'Brush Script MT', cursive, Arial;
+      font-size: 1.8rem;
+      color: #000;
+      font-weight: bold;
+    }
+  }
+
+  .amount-words {
+    border-bottom: 1px dashed #999;
+    padding-bottom: 5px;
+    
+    .words {
+      font-family: 'Brush Script MT', cursive, Arial;
+      font-size: 1.5rem;
+      color: #000;
+    }
+  }
+
+  .amount-box {
+    align-self: flex-end;
+    border: 3px solid #b8860b;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+}
+
+.cheque-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  
+  .signature {
+    text-align: center;
+    
+    .sign-line {
+      font-family: 'Brush Script MT', cursive, Arial;
+      font-size: 1.5rem;
+      border-bottom: 1px solid #000;
+      padding: 0 20px;
+      color: #000080;
+    }
+    
+    .sign-title {
+      font-size: 0.8rem;
+      color: #666;
+      margin-top: 5px;
+    }
+  }
+}
+
+

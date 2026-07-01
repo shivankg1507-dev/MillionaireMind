@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'TriviaTitan',
+  appId: 'com.millionairemind.game',
+  appName: 'MillionaireMind',
   webDir: 'www'
 };
 

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScreenOrientation } from '@capacitor/screen-orientation';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,15 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class AppComponent {
-  constructor() {}
+  constructor() {
+    this.lockOrientation();
+  }
+
+  async lockOrientation() {
+    try {
+      await ScreenOrientation.lock({ orientation: 'landscape' });
+    } catch (e) {
+      console.log('Screen orientation lock failed', e);
+    }
+  }
 }

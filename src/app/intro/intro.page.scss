@@ -1,0 +1,182 @@
+ion-content {
+  --background: #050212;
+}
+
+.video-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  background: rgba(0,0,0,0.7);
+}
+
+.intro-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  &::-webkit-media-controls {
+    display: none !important;
+  }
+  &::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
+  }
+}
+
+/* Ladder Screen Styles */
+.ladder-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.studio-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(circle at 100% 50%, #4a8cd1 0%, #0c2049 40%, #03081c 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.money-tree-container {
+  position: absolute;
+  top: 10vh;
+  width: 320px;
+  height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  mask-image: linear-gradient(to top, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to top, black 80%, transparent 100%);
+  scrollbar-width: thin;
+  scrollbar-color: #c9a752 transparent;
+  padding-bottom: 20px;
+  
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #c9a752;
+    border-radius: 10px;
+  }
+}
+
+.money-tree-scroll {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  animation: scrollUp 5.5s cubic-bezier(0.2, 0.8, 0.4, 1) forwards;
+  transform: translateY(100%);
+}
+
+@keyframes scrollUp {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(0); }
+}
+
+.ladder-item {
+  display: grid;
+  grid-template-columns: 30px 20px 1fr;
+  align-items: center;
+  padding: 5px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #c9a752; /* KBC gold */
+  font-family: Georgia, serif;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  margin-bottom: 2px;
+  border-radius: 30px;
+  
+  .q-num {
+    text-align: right;
+  }
+  
+  .q-dot {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  .q-prize {
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  &.milestone {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+}
+
+.lifelines-display {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  
+  .lifeline-icon-wrapper {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    border: 2px solid #c9a752;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c9a752;
+    font-size: 24px;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(201, 167, 82, 0.5);
+    
+    &.used {
+      opacity: 0.4;
+    }
+    
+    .cross-mark {
+      position: absolute;
+      color: red;
+      font-size: 40px;
+      opacity: 0.8;
+    }
+  }
+}
+
+.actions {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 20;
+}
+
+.tap-prompt {
+  position: absolute;
+  bottom: 50px;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  animation: pulse 1.5s infinite;
+  z-index: 20;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
