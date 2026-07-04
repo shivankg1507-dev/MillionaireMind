@@ -22,16 +22,18 @@ ion-content {
   justify-content: center;
   align-items: center;
   z-index: 50;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .intro-video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
   &::-webkit-media-controls {
     display: none !important;
   }
+
   &::-webkit-media-controls-start-playback-button {
     display: none !important;
     -webkit-appearance: none;
@@ -70,10 +72,11 @@ ion-content {
   scrollbar-width: thin;
   scrollbar-color: #c9a752 transparent;
   padding-bottom: 20px;
-  
+
   &::-webkit-scrollbar {
     width: 6px;
   }
+
   &::-webkit-scrollbar-thumb {
     background-color: #c9a752;
     border-radius: 10px;
@@ -89,8 +92,13 @@ ion-content {
 }
 
 @keyframes scrollUp {
-  0% { transform: translateY(100%); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .ladder-item {
@@ -100,26 +108,27 @@ ion-content {
   padding: 5px 20px;
   font-size: 1.1rem;
   font-weight: bold;
-  color: #c9a752; /* KBC gold */
+  color: #c9a752;
+  /* KBC gold */
   font-family: Georgia, serif;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
   margin-bottom: 2px;
   border-radius: 30px;
-  
+
   .q-num {
     text-align: right;
   }
-  
+
   .q-dot {
     text-align: center;
     font-size: 0.8rem;
   }
-  
+
   .q-prize {
     text-align: left;
     padding-left: 10px;
   }
-  
+
   &.milestone {
     color: #ffffff;
     font-size: 1.2rem;
@@ -131,7 +140,7 @@ ion-content {
   justify-content: center;
   gap: 15px;
   margin-bottom: 20px;
-  
+
   .lifeline-icon-wrapper {
     position: relative;
     width: 60px;
@@ -143,13 +152,13 @@ ion-content {
     align-items: center;
     color: #c9a752;
     font-size: 24px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 5px rgba(201, 167, 82, 0.5);
-    
+
     &.used {
       opacity: 0.4;
     }
-    
+
     .cross-mark {
       position: absolute;
       color: red;
@@ -177,6 +186,13 @@ ion-content {
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 1; }
+
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
 }

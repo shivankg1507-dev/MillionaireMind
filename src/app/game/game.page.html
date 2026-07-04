@@ -1,6 +1,6 @@
 <ion-content [fullscreen]="true" class="game-bg" [ngClass]="getBackgroundClass()">
   <div class="game-container" *ngIf="currentQuestion">
-    
+
     <!-- Top Bar: Prize and Lifelines -->
     <div class="top-bar">
       <div class="prize-info" (click)="openLadder()">
@@ -10,15 +10,10 @@
         </span>
         <span class="amount" *ngIf="gameService.currentPrize === '0'">₹ 0</span>
       </div>
-      
+
       <div class="lifelines">
-        <ion-button 
-          *ngFor="let lifeline of gameService.lifelines" 
-          [disabled]="lifeline.used"
-          (click)="useLifeline(lifeline.type)"
-          shape="round" 
-          class="lifeline-btn"
-          [class.used]="lifeline.used">
+        <ion-button *ngFor="let lifeline of gameService.lifelines" [disabled]="lifeline.used"
+          (click)="useLifeline(lifeline.type)" shape="round" class="lifeline-btn" [class.used]="lifeline.used">
           {{ lifeline.name }}
         </ion-button>
       </div>
@@ -30,32 +25,35 @@
       <div class="timer-container">
         <svg class="timer-svg" viewBox="0 0 100 100">
           <circle class="timer-bg" cx="50" cy="50" r="45"></circle>
-          <circle class="timer-progress" cx="50" cy="50" r="45" 
-                  [style.stroke-dashoffset]="283 - (283 * timeLeft / 30)"></circle>
+          <circle class="timer-progress" cx="50" cy="50" r="45" [style.stroke-dashoffset]="283 - (283 * timeLeft / 30)">
+          </circle>
         </svg>
         <div class="timer-text">{{ timeLeft }}</div>
+      </div>
+
+      <!-- Image Box (if applicable) -->
+      <div class="question-image-wrapper" *ngIf="currentQuestion.image">
+        <img [src]="currentQuestion.image" class="question-img" [class.blurry]="correctOptionIndex === null" />
       </div>
 
       <!-- Question Box -->
       <div class="question-box-wrapper">
         <div class="question-box">
           <div class="question-text" *ngIf="timeLeft > 20">{{ currentQuestion.text }}</div>
-          <div class="question-text hindi-text" *ngIf="timeLeft <= 20" style="font-size: 1.1em;">{{ currentQuestion.textHindi }}</div>
+          <div class="question-text hindi-text" *ngIf="timeLeft <= 20" style="font-size: 1.1em;">{{
+            currentQuestion.textHindi }}</div>
         </div>
       </div>
 
       <!-- Options Grid -->
       <div class="options-grid">
-        <div class="option-wrapper" *ngFor="let option of (timeLeft > 20 ? currentQuestion.options : currentQuestion.optionsHindi); let i = index">
-          <button 
-            class="option-btn"
-            [class.selected]="selectedOptionIndex === i"
-            [class.locked]="lockedOptionIndex === i"
-            [class.correct]="correctOptionIndex === i"
+        <div class="option-wrapper"
+          *ngFor="let option of (timeLeft > 20 ? currentQuestion.options : currentQuestion.optionsHindi); let i = index">
+          <button class="option-btn" [class.selected]="selectedOptionIndex === i"
+            [class.locked]="lockedOptionIndex === i" [class.correct]="correctOptionIndex === i"
             [class.wrong]="lockedOptionIndex === i && correctOptionIndex !== null && correctOptionIndex !== i"
-            [class.disabled]="disabledOptions.includes(i)"
-            (click)="selectOption(i)">
-            <span class="option-letter"><span class="q-diamond">♦</span> {{ ['A', 'B', 'C', 'D'][i] }}:</span> 
+            [class.disabled]="disabledOptions.includes(i)" (click)="selectOption(i)">
+            <span class="option-letter"><span class="q-diamond">♦</span> {{ ['A', 'B', 'C', 'D'][i] }}:</span>
             <span class="option-text" [class.hindi-font]="timeLeft <= 20">{{ option }}</span>
           </button>
         </div>
@@ -64,12 +62,8 @@
 
     <!-- Action Button (Lock Answer) -->
     <div class="action-bar">
-      <ion-button 
-        expand="block" 
-        shape="round" 
-        class="lock-btn" 
-        [disabled]="selectedOptionIndex === null || lockedOptionIndex !== null"
-        (click)="lockAnswer()">
+      <ion-button expand="block" shape="round" class="lock-btn"
+        [disabled]="selectedOptionIndex === null || lockedOptionIndex !== null" (click)="lockAnswer()">
         Lock Answer
       </ion-button>
     </div>
@@ -80,9 +74,9 @@
     <div class="poll-modal">
       <h2>Audience Poll Results</h2>
       <div class="bars">
-        <div class="bar-container" *ngFor="let percent of audiencePollData; let i = index">
-          <div class="bar" [style.height.%]="percent">
-            <span class="percent">{{percent}}%</span>
+        <div class="bar-container" *ngFor="let percent of displayPollData; let i = index">
+          <div class="bar" [style.height.%]="percent" [style.transition]="isPolling ? 'none' : 'height 0.8s ease-out'">
+            <span class="percent" *ngIf="!isPolling">{{percent}}%</span>
           </div>
           <span class="letter">{{ ['A', 'B', 'C', 'D'][i] }}</span>
         </div>
@@ -98,7 +92,7 @@
         <ion-icon name="call" class="pulsing-phone"></ion-icon>
         <h2>Dialing Friend...</h2>
       </div>
-      
+
       <div *ngIf="phoneFriendData" class="friend-response">
         <ion-icon name="person-circle" class="friend-avatar"></ion-icon>
         <h2>Friend says:</h2>
@@ -117,7 +111,8 @@
         <div class="ladder-container kbc-ladder">
           <!-- Display Lifelines -->
           <div class="lifelines-display">
-            <div *ngFor="let lifeline of gameService.lifelines" class="lifeline-icon-wrapper" [class.used]="lifeline.used">
+            <div *ngFor="let lifeline of gameService.lifelines" class="lifeline-icon-wrapper"
+              [class.used]="lifeline.used">
               <ion-icon [name]="lifeline.icon"></ion-icon>
               <ion-icon name="close" *ngIf="lifeline.used" class="cross-mark"></ion-icon>
             </div>
@@ -125,9 +120,9 @@
 
           <div class="money-tree-container">
             <div class="money-tree-list">
-              <div class="ladder-item" *ngFor="let prize of prizeLadder; let i = index" 
-                   [class.milestone]="prize === '3,20,000' || prize === '1 CRORE' || prize === '7 CRORE'"
-                   [class.current-question]="prize === currentQuestion.prize">
+              <div class="ladder-item" *ngFor="let prize of prizeLadder; let i = index"
+                [class.milestone]="prize === '3,20,000' || prize === '1 CRORE' || prize === '7 CRORE'"
+                [class.current-question]="prize === currentQuestion.prize">
                 <span class="q-num">{{ prizeLadder.length - i }}</span>
                 <span class="q-dot" *ngIf="prize !== '3,20,000' && prize !== '1 CRORE' && prize !== '7 CRORE'">♦</span>
                 <span class="q-dot" *ngIf="prize === '3,20,000' || prize === '1 CRORE' || prize === '7 CRORE'"></span>

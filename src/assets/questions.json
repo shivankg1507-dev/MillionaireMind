@@ -1,0 +1,3295 @@
+{
+  "easy": [
+    {
+      "text": "Which planet in our solar system is known as the Red Planet?",
+      "textHindi": "हमारे सौर मंडल में किस ग्रह को लाल ग्रह के नाम से जाना जाता है?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Venus"
+      ],
+      "optionsHindi": [
+        "पृथ्वी",
+        "मंगल",
+        "बृहस्पति",
+        "शुक्र"
+      ],
+      "correctIndex": 1,
+      "image": "assets/images/mars.png"
+    },
+    {
+      "text": "What is the boiling point of water at sea level in Celsius?",
+      "textHindi": "समुद्र तल पर सेल्सियस में पानी का क्वथनांक क्या है?",
+      "options": [
+        "90",
+        "100",
+        "110",
+        "120"
+      ],
+      "optionsHindi": [
+        "90",
+        "100",
+        "110",
+        "120"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the national currency of India?",
+      "textHindi": "भारत की राष्ट्रीय मुद्रा क्या है?",
+      "options": [
+        "Dollar",
+        "Euro",
+        "Rupee",
+        "Yen"
+      ],
+      "optionsHindi": [
+        "डॉलर",
+        "यूरो",
+        "रुपया",
+        "येन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which is the largest continent in the world?",
+      "textHindi": "विश्व का सबसे बड़ा महाद्वीप कौन सा है?",
+      "options": [
+        "Africa",
+        "Europe",
+        "Asia",
+        "Antarctica"
+      ],
+      "optionsHindi": [
+        "अफ्रीका",
+        "यूरोप",
+        "एशिया",
+        "अंटार्कटिका"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "If you mix red and yellow colors, which color is formed?",
+      "textHindi": "यदि आप लाल और पीले रंगों को मिलाते हैं, तो कौन सा रंग बनता है?",
+      "options": [
+        "Green",
+        "Purple",
+        "Orange",
+        "Brown"
+      ],
+      "optionsHindi": [
+        "हरा",
+        "बैंगनी",
+        "नारंगी",
+        "भूरा"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which Indian city is known as the 'Pink City'?",
+      "textHindi": "किस भारतीय शहर को 'गुलाबी शहर' (Pink City) के रूप में जाना जाता है?",
+      "options": [
+        "Jaipur",
+        "Mumbai",
+        "Delhi",
+        "Bengaluru"
+      ],
+      "optionsHindi": [
+        "जयपुर",
+        "मुंबई",
+        "दिल्ली",
+        "बेंगलुरु"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "What force keeps us on the ground and stops us from floating away?",
+      "textHindi": "कौन सा बल हमें जमीन पर रखता है और दूर तैरने से रोकता है?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Tension"
+      ],
+      "optionsHindi": [
+        "चुंबकत्व",
+        "घर्षण",
+        "गुरुत्वाकर्षण (Gravity)",
+        "तनाव"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which organ in the human body is primarily responsible for pumping blood?",
+      "textHindi": "मानव शरीर में कौन सा अंग मुख्य रूप से रक्त पंप करने के लिए जिम्मेदार है?",
+      "options": [
+        "Brain",
+        "Lungs",
+        "Kidneys",
+        "Heart"
+      ],
+      "optionsHindi": [
+        "मस्तिष्क",
+        "फेफड़े",
+        "गुर्दे",
+        "हृदय"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the natural satellite of the Earth?",
+      "textHindi": "पृथ्वी का प्राकृतिक उपग्रह कौन सा है?",
+      "options": [
+        "Sun",
+        "Moon",
+        "Mars",
+        "Venus"
+      ],
+      "optionsHindi": [
+        "सूर्य",
+        "चंद्रमा",
+        "मंगल",
+        "शुक्र"
+      ],
+      "correctIndex": 1,
+      "image": "assets/images/moon.png"
+    },
+    {
+      "text": "Which festival is widely celebrated as the festival of lights in India?",
+      "textHindi": "भारत में किस त्योहार को व्यापक रूप से रोशनी के त्योहार के रूप में मनाया जाता है?",
+      "options": [
+        "Holi",
+        "Diwali",
+        "Eid",
+        "Navratri"
+      ],
+      "optionsHindi": [
+        "होली",
+        "दिवाली",
+        "ईद",
+        "नवरात्रि"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which ocean is the largest on Earth?",
+      "textHindi": "पृथ्वी पर सबसे बड़ा महासागर कौन सा है?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "optionsHindi": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the national flower of India?",
+      "textHindi": "भारत का राष्ट्रीय फूल क्या है?",
+      "options": [
+        "Rose",
+        "Lotus",
+        "Sunflower",
+        "Marigold"
+      ],
+      "optionsHindi": [
+        "गुलाब",
+        "कमल",
+        "सूरजमुखी",
+        "गेंदा"
+      ],
+      "correctIndex": 1,
+      "image": "assets/images/sunflower.png"
+    },
+    {
+      "text": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+      "textHindi": "प्रकाश संश्लेषण के लिए पौधे वायुमंडल से कौन सी गैस अवशोषित करते हैं?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "optionsHindi": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which is the closest star to Earth?",
+      "textHindi": "पृथ्वी के सबसे निकट का तारा कौन सा है?",
+      "options": [
+        "Sirius",
+        "Proxima Centauri",
+        "Sun",
+        "Alpha Centauri"
+      ],
+      "optionsHindi": [
+        "सीरियस",
+        "प्रॉक्सिमा सेंटॉरी",
+        "सूर्य",
+        "अल्फा सेंटॉरी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "How many continents are there on Earth?",
+      "textHindi": "पृथ्वी पर कितने महाद्वीप हैं?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "optionsHindi": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What natural phenomenon causes a rainbow?",
+      "textHindi": "कौन सी प्राकृतिक घटना इंद्रधनुष का कारण बनती है?",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Absorption",
+        "Evaporation"
+      ],
+      "optionsHindi": [
+        "परावर्तन (Reflection)",
+        "अपवर्तन (Refraction)",
+        "अवशोषण (Absorption)",
+        "वाष्पीकरण (Evaporation)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which Indian festival is known as the festival of colors?",
+      "textHindi": "किस भारतीय त्योहार को रंगों का त्योहार कहा जाता है?",
+      "options": [
+        "Diwali",
+        "Holi",
+        "Onam",
+        "Pongal"
+      ],
+      "optionsHindi": [
+        "दिवाली",
+        "होली",
+        "ओणम",
+        "पोंगल"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the hardest part of the human body?",
+      "textHindi": "मानव शरीर का सबसे कठोर अंग कौन सा है?",
+      "options": [
+        "Skull",
+        "Femur Bone",
+        "Tooth Enamel",
+        "Knee Cap"
+      ],
+      "optionsHindi": [
+        "खोपड़ी",
+        "फीमर हड्डी",
+        "दांत का इनेमल",
+        "घुटने की टोपी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which is the longest river in India?",
+      "textHindi": "भारत की सबसे लंबी नदी कौन सी है?",
+      "options": [
+        "Yamuna",
+        "Godavari",
+        "Ganga",
+        "Brahmaputra"
+      ],
+      "optionsHindi": [
+        "यमुना",
+        "गोदावरी",
+        "गंगा",
+        "ब्रह्मपुत्र"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the closest planet to the Sun?",
+      "textHindi": "सूर्य के सबसे निकट का ग्रह कौन सा है?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Earth",
+        "Mercury"
+      ],
+      "optionsHindi": [
+        "शुक्र",
+        "मंगल",
+        "पृथ्वी",
+        "बुध"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "How many teeth does a normal human adult have?",
+      "textHindi": "एक सामान्य वयस्क मनुष्य के कितने दांत होते हैं?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "optionsHindi": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which instrument is used to measure temperature?",
+      "textHindi": "तापमान मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Voltmeter",
+        "Seismograph"
+      ],
+      "optionsHindi": [
+        "बैरोमीटर",
+        "थर्मामीटर",
+        "वोल्टमीटर",
+        "सीस्मोग्राफ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which is the largest animal on land?",
+      "textHindi": "भूमि पर सबसे बड़ा जानवर कौन सा है?",
+      "options": [
+        "Rhinoceros",
+        "Hippopotamus",
+        "African Elephant",
+        "Giraffe"
+      ],
+      "optionsHindi": [
+        "गैंडा",
+        "दरियाई घोड़ा",
+        "अफ़्रीकी हाथी",
+        "जिराफ"
+      ],
+      "correctIndex": 2,
+      "image": "assets/images/elephant.png"
+    },
+    {
+      "text": "In what direction does the sun set?",
+      "textHindi": "सूर्य किस दिशा में अस्त होता है?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "optionsHindi": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the main source of energy for the Earth?",
+      "textHindi": "पृथ्वी के लिए ऊर्जा का मुख्य स्रोत क्या है?",
+      "options": [
+        "Moon",
+        "Wind",
+        "Water",
+        "Sun"
+      ],
+      "optionsHindi": [
+        "चंद्रमा",
+        "हवा",
+        "पानी",
+        "सूर्य"
+      ],
+      "correctIndex": 3,
+      "image": "assets/images/sun.png"
+    },
+    {
+      "text": "Which is the tallest mountain in the world?",
+      "textHindi": "विश्व का सबसे ऊँचा पर्वत कौन सा है?",
+      "options": [
+        "K2",
+        "Mount Everest",
+        "Kangchenjunga",
+        "Mount Kilimanjaro"
+      ],
+      "optionsHindi": [
+        "K2",
+        "माउंट एवरेस्ट",
+        "कंचनजंगा",
+        "माउंट किलिमंजारो"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "How many states are there in India?",
+      "textHindi": "भारत में कितने राज्य हैं?",
+      "options": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "optionsHindi": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "How many colors are there in a rainbow?",
+      "textHindi": "इंद्रधनुष में कितने रंग होते हैं?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "optionsHindi": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the capital of the United Kingdom?",
+      "textHindi": "यूनाइटेड किंगडम की राजधानी क्या है?",
+      "options": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Dublin"
+      ],
+      "optionsHindi": [
+        "पेरिस",
+        "लंदन",
+        "बर्लिन",
+        "डबलिन"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which gas do humans exhale when they breathe out?",
+      "textHindi": "मनुष्य सांस छोड़ते समय कौन सी गैस बाहर निकालते हैं?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Helium"
+      ],
+      "optionsHindi": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हीलियम"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which is the fastest land animal?",
+      "textHindi": "भूमि पर दौड़ने वाला सबसे तेज़ जानवर कौन सा है?",
+      "options": [
+        "Lion",
+        "Horse",
+        "Cheetah",
+        "Leopard"
+      ],
+      "optionsHindi": [
+        "शेर",
+        "घोड़ा",
+        "चीता",
+        "तेंदुआ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the main spoken language in China?",
+      "textHindi": "चीन में मुख्य रूप से कौन सी भाषा बोली जाती है?",
+      "options": [
+        "Cantonese",
+        "Mandarin",
+        "Hakka",
+        "English"
+      ],
+      "optionsHindi": [
+        "कैंटोनीज़",
+        "मंदारिन",
+        "हक्का",
+        "अंग्रेजी"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which month of the year has the fewest days?",
+      "textHindi": "वर्ष के किस महीने में सबसे कम दिन होते हैं?",
+      "options": [
+        "January",
+        "February",
+        "April",
+        "November"
+      ],
+      "optionsHindi": [
+        "जनवरी",
+        "फरवरी",
+        "अप्रैल",
+        "नवंबर"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What do you call a baby kangaroo?",
+      "textHindi": "कंगारू के बच्चे को क्या कहा जाता है?",
+      "options": [
+        "Cub",
+        "Pup",
+        "Joey",
+        "Calf"
+      ],
+      "optionsHindi": [
+        "शावक (Cub)",
+        "पिल्ला (Pup)",
+        "जोई (Joey)",
+        "बछड़ा (Calf)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "In which continent is the Sahara Desert located?",
+      "textHindi": "सहारा मरुस्थल किस महाद्वीप में स्थित है?",
+      "options": [
+        "Asia",
+        "South America",
+        "Africa",
+        "Australia"
+      ],
+      "optionsHindi": [
+        "एशिया",
+        "दक्षिण अमेरिका",
+        "अफ्रीका",
+        "ऑस्ट्रेलिया"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which planet is known for having a Great Red Spot?",
+      "textHindi": "किस ग्रह को ग्रेट रेड स्पॉट (Great Red Spot) के लिए जाना जाता है?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+      ],
+      "optionsHindi": [
+        "मंगल",
+        "बृहस्पति",
+        "शनि",
+        "नेपच्यून"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Who was the first Prime Minister of India?",
+      "textHindi": "भारत के प्रथम प्रधानमंत्री कौन थे?",
+      "options": [
+        "Mahatma Gandhi",
+        "Sardar Patel",
+        "Jawaharlal Nehru",
+        "Indira Gandhi"
+      ],
+      "optionsHindi": [
+        "महात्मा गांधी",
+        "सरदार पटेल",
+        "जवाहरलाल नेहरू",
+        "इंदिरा गांधी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which fruit is known as the 'king of fruits' in India?",
+      "textHindi": "भारत में किस फल को 'फलों का राजा' कहा जाता है?",
+      "options": [
+        "Apple",
+        "Mango",
+        "Banana",
+        "Grapes"
+      ],
+      "optionsHindi": [
+        "सेब",
+        "आम",
+        "केला",
+        "अंगूर"
+      ],
+      "correctIndex": 1,
+      "image": "assets/images/apple.png"
+    },
+    {
+      "text": "What is the freezing point of water in Celsius?",
+      "textHindi": "सेल्सियस में पानी का हिमांक (freezing point) क्या है?",
+      "options": [
+        "0",
+        "10",
+        "-10",
+        "32"
+      ],
+      "optionsHindi": [
+        "0",
+        "10",
+        "-10",
+        "32"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "Which bird is known for its beautiful tail feathers that it spreads like a fan?",
+      "textHindi": "कौन सा पक्षी अपने सुंदर पूंछ के पंखों के लिए जाना जाता है जिसे वह पंखे की तरह फैलाता है?",
+      "options": [
+        "Eagle",
+        "Parrot",
+        "Peacock",
+        "Swan"
+      ],
+      "optionsHindi": [
+        "चील",
+        "तोता",
+        "मोर",
+        "हंस"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the shape of a full moon?",
+      "textHindi": "पूर्णिमा के चंद्रमा का आकार कैसा होता है?",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle",
+        "Oval"
+      ],
+      "optionsHindi": [
+        "चौकोर",
+        "त्रिकोण",
+        "गोल (Circle)",
+        "अंडाकार"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which is the most spoken language in the world?",
+      "textHindi": "दुनिया में सबसे ज्यादा बोली जाने वाली भाषा कौन सी है?",
+      "options": [
+        "Mandarin",
+        "Spanish",
+        "English",
+        "Hindi"
+      ],
+      "optionsHindi": [
+        "मंदारिन",
+        "स्पेनिश",
+        "अंग्रेजी",
+        "हिंदी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "How many players are there in a cricket team on the field?",
+      "textHindi": "मैदान पर एक क्रिकेट टीम में कितने खिलाड़ी होते हैं?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "optionsHindi": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What covers approximately 71% of the Earth's surface?",
+      "textHindi": "पृथ्वी की सतह का लगभग 71% हिस्सा किससे ढका है?",
+      "options": [
+        "Land",
+        "Forests",
+        "Ice",
+        "Water"
+      ],
+      "optionsHindi": [
+        "भूमि",
+        "जंगल",
+        "बर्फ",
+        "पानी"
+      ],
+      "correctIndex": 3,
+      "image": "assets/images/earth.png"
+    },
+    {
+      "text": "What sweet substance do bees produce?",
+      "textHindi": "मधुमक्खियां कौन सा मीठा पदार्थ बनाती हैं?",
+      "options": [
+        "Sugar",
+        "Nectar",
+        "Honey",
+        "Syrup"
+      ],
+      "optionsHindi": [
+        "चीनी",
+        "अमृत (Nectar)",
+        "शहद",
+        "सिरप"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "How many legs does a spider have?",
+      "textHindi": "मकड़ी के कितने पैर होते हैं?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "optionsHindi": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which direction does a compass needle primarily point towards?",
+      "textHindi": "कम्पास की सुई मुख्य रूप से किस दिशा की ओर इशारा करती है?",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "optionsHindi": [
+        "पूर्व",
+        "पश्चिम",
+        "उत्तर",
+        "दक्षिण"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the capital of France?",
+      "textHindi": "फ्रांस की राजधानी क्या है?",
+      "options": [
+        "Rome",
+        "Madrid",
+        "Paris",
+        "Berlin"
+      ],
+      "optionsHindi": [
+        "रोम",
+        "मैड्रिड",
+        "पेरिस",
+        "बर्लिन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which sense organ is used for smelling?",
+      "textHindi": "सूंघने के लिए किस ज्ञानेंद्रिय (sense organ) का उपयोग किया जाता है?",
+      "options": [
+        "Eyes",
+        "Ears",
+        "Tongue",
+        "Nose"
+      ],
+      "optionsHindi": [
+        "आंखें",
+        "कान",
+        "जीभ",
+        "नाक"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "Which of these is considered a primary color?",
+      "textHindi": "इनमें से किसे प्राथमिक रंग माना जाता है?",
+      "options": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Red"
+      ],
+      "optionsHindi": [
+        "नारंगी",
+        "हरा",
+        "बैंगनी",
+        "लाल"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "A is the father of B. B is the brother of C. How is A related to C?",
+      "textHindi": "A, B का पिता है। B, C का भाई है। A, C से किस प्रकार संबंधित है?",
+      "options": [
+        "Uncle",
+        "Cousin",
+        "Father",
+        "Grandfather"
+      ],
+      "optionsHindi": [
+        "चाचा",
+        "चचेरा भाई",
+        "पिता",
+        "दादा"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What comes next in the sequence: 2, 4, 6, 8, __?",
+      "textHindi": "इस क्रम में आगे क्या आएगा: 2, 4, 6, 8, __?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "14"
+      ],
+      "optionsHindi": [
+        "9",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Pointing to a photograph, a man said, 'She is my father's only daughter.' Who is in the photograph?",
+      "textHindi": "एक तस्वीर की ओर इशारा करते हुए एक आदमी ने कहा, 'वह मेरे पिता की इकलौती बेटी है।' तस्वीर में कौन है?",
+      "options": [
+        "His wife",
+        "His sister",
+        "His mother",
+        "His daughter"
+      ],
+      "optionsHindi": [
+        "उसकी पत्नी",
+        "उसकी बहन",
+        "उसकी माँ",
+        "उसकी बेटी"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Find the odd one out: Apple, Mango, Potato, Banana.",
+      "textHindi": "बेमेल को चुनें: सेब, आम, आलू, केला।",
+      "options": [
+        "Apple",
+        "Mango",
+        "Potato",
+        "Banana"
+      ],
+      "optionsHindi": [
+        "सेब",
+        "आम",
+        "आलू (Potato)",
+        "केला"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Pointing to a boy, Meena says, 'He is the son of my grandfather's only son.' How is the boy related to Meena?",
+      "textHindi": "एक लड़के की ओर इशारा करते हुए मीना कहती है, 'वह मेरे दादा के इकलौते बेटे का बेटा है।' लड़का मीना से कैसे संबंधित है?",
+      "options": [
+        "Cousin",
+        "Brother",
+        "Uncle",
+        "Nephew"
+      ],
+      "optionsHindi": [
+        "चचेरा भाई",
+        "भाई",
+        "चाचा",
+        "भतीजा"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What comes next in the sequence: 3, 6, 9, 12, __?",
+      "textHindi": "इस क्रम में आगे क्या आएगा: 3, 6, 9, 12, __?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "18"
+      ],
+      "optionsHindi": [
+        "14",
+        "15",
+        "16",
+        "18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Pointing to a man, a woman says, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+      "textHindi": "एक आदमी की ओर इशारा करते हुए एक महिला कहती है, 'उसकी माँ मेरी माँ की इकलौती बेटी है।' महिला उस आदमी से कैसे संबंधित है?",
+      "options": [
+        "Aunt",
+        "Sister",
+        "Mother",
+        "Grandmother"
+      ],
+      "optionsHindi": [
+        "चाची/बुआ",
+        "बहन",
+        "माँ",
+        "दादी/नानी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which planet is commonly known as the 'Blue Planet'?",
+      "textHindi": "किस ग्रह को आमतौर पर 'नीला ग्रह' (Blue Planet) कहा जाता है?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Neptune",
+        "Uranus"
+      ],
+      "optionsHindi": [
+        "शुक्र",
+        "पृथ्वी",
+        "नेपच्यून",
+        "यूरेनस"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the standard taste of pure, distilled water?",
+      "textHindi": "शुद्ध, आसुत (distilled) जल का मानक स्वाद क्या होता है?",
+      "options": [
+        "Slightly Sweet",
+        "Slightly Salty",
+        "Bitter",
+        "Tasteless"
+      ],
+      "optionsHindi": [
+        "थोड़ा मीठा",
+        "थोड़ा नमकीन",
+        "कड़वा",
+        "स्वादहीन (Tasteless)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the national animal of India?",
+      "textHindi": "भारत का राष्ट्रीय पशु क्या है?",
+      "options": [
+        "Lion",
+        "Elephant",
+        "Tiger",
+        "Leopard"
+      ],
+      "optionsHindi": [
+        "शेर",
+        "हाथी",
+        "बाघ (Tiger)",
+        "तेंदुआ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Identify this bright object in our solar system.",
+      "textHindi": "हमारे सौर मंडल की इस चमकीली वस्तु को पहचानें।",
+      "image": "assets/images/sun.png",
+      "options": [
+        "Mars",
+        "Sun",
+        "Moon",
+        "Earth"
+      ],
+      "optionsHindi": [
+        "मंगल",
+        "सूर्य",
+        "चंद्रमा",
+        "पृथ्वी"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Identify this celestial body.",
+      "textHindi": "इस खगोलीय पिंड को पहचानें।",
+      "image": "assets/images/moon.png",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Moon",
+        "Venus"
+      ],
+      "optionsHindi": [
+        "पृथ्वी",
+        "शनि",
+        "चंद्रमा",
+        "शुक्र"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Identify this planet from space.",
+      "textHindi": "अंतरिक्ष से इस ग्रह को पहचानें।",
+      "image": "assets/images/earth.png",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Earth",
+        "Neptune"
+      ],
+      "optionsHindi": [
+        "बृहस्पति",
+        "मंगल",
+        "पृथ्वी",
+        "नेपच्यून"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Identify this fruit.",
+      "textHindi": "इस फल को पहचानें।",
+      "image": "assets/images/apple.png",
+      "options": [
+        "Apple",
+        "Orange",
+        "Mango",
+        "Banana"
+      ],
+      "optionsHindi": [
+        "सेब",
+        "संतरा",
+        "आम",
+        "केला"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "Identify this large mammal.",
+      "textHindi": "इस विशाल स्तनपायी को पहचानें।",
+      "image": "assets/images/elephant.png",
+      "options": [
+        "Rhino",
+        "Hippo",
+        "Elephant",
+        "Giraffe"
+      ],
+      "optionsHindi": [
+        "गैंडा",
+        "दरियाई घोड़ा",
+        "हाथी",
+        "जिराफ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Identify this bright flower.",
+      "textHindi": "इस चमकीले फूल को पहचानें।",
+      "image": "assets/images/sunflower.png",
+      "options": [
+        "Rose",
+        "Sunflower",
+        "Lotus",
+        "Tulip"
+      ],
+      "optionsHindi": [
+        "गुलाब",
+        "सूरजमुखी",
+        "कमल",
+        "ट्यूलिप"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "medium": [
+    {
+      "text": "Who was the first Indian astronaut to travel to space?",
+      "textHindi": "अंतरिक्ष की यात्रा करने वाले पहले भारतीय अंतरिक्ष यात्री कौन थे?",
+      "options": [
+        "Kalpana Chawla",
+        "Rakesh Sharma",
+        "Sunita Williams",
+        "Vikram Sarabhai"
+      ],
+      "optionsHindi": [
+        "कल्पना चावला",
+        "राकेश शर्मा",
+        "सुनीता विलियम्स",
+        "विक्रम साराभाई"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which element has the chemical symbol 'O' and is essential for human respiration?",
+      "textHindi": "किस तत्व का रासायनिक प्रतीक 'O' है और यह मानव श्वसन के लिए आवश्यक है?",
+      "options": [
+        "Osmium",
+        "Oxygen",
+        "Ozone",
+        "Hydrogen"
+      ],
+      "optionsHindi": [
+        "ऑस्मियम",
+        "ऑक्सीजन",
+        "ओजोन",
+        "हाइड्रोजन"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "In physics, what is the unit of measurement for electrical resistance?",
+      "textHindi": "भौतिकी में, विद्युत प्रतिरोध (electrical resistance) की माप की इकाई क्या है?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "optionsHindi": [
+        "वोल्ट",
+        "एम्पीयर",
+        "ओम (Ohm)",
+        "वाट"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Who is known as the 'Missile Man of India'?",
+      "textHindi": "भारत के 'मिसाइल मैन' के रूप में किसे जाना जाता है?",
+      "options": [
+        "Homi J. Bhabha",
+        "C.V. Raman",
+        "A.P.J. Abdul Kalam",
+        "Satish Dhawan"
+      ],
+      "optionsHindi": [
+        "होमी जे. भाभा",
+        "सी.वी. रमन",
+        "ए.पी.जे. अब्दुल कलाम",
+        "सतीश धवन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "If a car is traveling at a constant speed of 60 km/h, how far will it travel in 2.5 hours?",
+      "textHindi": "यदि एक कार 60 किमी/घंटा की निरंतर गति से यात्रा कर रही है, तो वह 2.5 घंटे में कितनी दूर यात्रा करेगी?",
+      "options": [
+        "120 km",
+        "150 km",
+        "180 km",
+        "160 km"
+      ],
+      "optionsHindi": [
+        "120 किमी",
+        "150 किमी",
+        "180 किमी",
+        "160 किमी"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which planet in our solar system has the most prominent ring system?",
+      "textHindi": "हमारे सौर मंडल के किस ग्रह में सबसे प्रमुख वलय प्रणाली (ring system) है?",
+      "options": [
+        "Jupiter",
+        "Uranus",
+        "Saturn",
+        "Neptune"
+      ],
+      "optionsHindi": [
+        "बृहस्पति",
+        "यूरेनस",
+        "शनि",
+        "नेपच्यून"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the capital city of Japan?",
+      "textHindi": "जापान की राजधानी क्या है?",
+      "options": [
+        "Seoul",
+        "Beijing",
+        "Tokyo",
+        "Bangkok"
+      ],
+      "optionsHindi": [
+        "सियोल",
+        "बीजिंग",
+        "टोक्यो",
+        "बैंकॉक"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which type of electromagnetic radiation is used to transmit satellite TV signals?",
+      "textHindi": "सैटेलाइट टीवी सिग्नल प्रसारित करने के लिए किस प्रकार के विद्युत चुम्बकीय विकिरण का उपयोग किया जाता है?",
+      "options": [
+        "X-rays",
+        "Microwaves",
+        "Ultraviolet",
+        "Infrared"
+      ],
+      "optionsHindi": [
+        "एक्स-रे",
+        "माइक्रोवेव",
+        "पराबैंगनी",
+        "इन्फ्रारेड"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What primarily causes the Earth's ocean tides?",
+      "textHindi": "मुख्य रूप से पृथ्वी के महासागर के ज्वार (tides) का कारण क्या है?",
+      "options": [
+        "Wind Patterns",
+        "Earth's Rotation",
+        "Moon's Gravity",
+        "Sun's Heat"
+      ],
+      "optionsHindi": [
+        "हवा के पैटर्न",
+        "पृथ्वी का घूर्णन",
+        "चंद्रमा का गुरुत्वाकर्षण",
+        "सूर्य की गर्मी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which Indian state is known as the 'Land of Five Rivers'?",
+      "textHindi": "किस भारतीय राज्य को 'पांच नदियों की भूमि' के रूप में जाना जाता है?",
+      "options": [
+        "Haryana",
+        "Punjab",
+        "Gujarat",
+        "Kerala"
+      ],
+      "optionsHindi": [
+        "हरियाणा",
+        "पंजाब",
+        "गुजरात",
+        "केरल"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Who was the first person to walk on the moon?",
+      "textHindi": "चंद्रमा पर कदम रखने वाले पहले व्यक्ति कौन थे?",
+      "options": [
+        "Yuri Gagarin",
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "optionsHindi": [
+        "यूरी गागरिन",
+        "बज़ एल्ड्रिन",
+        "नील आर्मस्ट्रांग",
+        "माइकल कोलिन्स"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the chemical formula for common table salt?",
+      "textHindi": "सामान्य टेबल नमक का रासायनिक सूत्र क्या है?",
+      "options": [
+        "CO2",
+        "NaCl",
+        "H2O",
+        "HCl"
+      ],
+      "optionsHindi": [
+        "CO2",
+        "NaCl",
+        "H2O",
+        "HCl"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The Great Barrier Reef, the world's largest coral reef system, is located in which country?",
+      "textHindi": "ग्रेट बैरियर रीफ, दुनिया की सबसे बड़ी प्रवाल भित्ति प्रणाली, किस देश में स्थित है?",
+      "options": [
+        "Brazil",
+        "Indonesia",
+        "Australia",
+        "South Africa"
+      ],
+      "optionsHindi": [
+        "ब्राज़ील",
+        "इंडोनेशिया",
+        "ऑस्ट्रेलिया",
+        "दक्षिण अफ़्रीका"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which is the smallest planet in our solar system?",
+      "textHindi": "हमारे सौर मंडल का सबसे छोटा ग्रह कौन सा है?",
+      "options": [
+        "Mars",
+        "Mercury",
+        "Venus",
+        "Pluto"
+      ],
+      "optionsHindi": [
+        "मंगल",
+        "बुध",
+        "शुक्र",
+        "प्लूटो"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Who wrote the Indian national song 'Vande Mataram'?",
+      "textHindi": "भारतीय राष्ट्रीय गीत 'वंदे मातरम' किसने लिखा था?",
+      "options": [
+        "Rabindranath Tagore",
+        "Bankim Chandra Chatterjee",
+        "Sarojini Naidu",
+        "Bhagat Singh"
+      ],
+      "optionsHindi": [
+        "रवींद्रनाथ टैगोर",
+        "बंकिम चंद्र चटर्जी",
+        "सरोजिनी नायडू",
+        "भगत सिंह"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the process by which liquid water turns into vapor called?",
+      "textHindi": "उस प्रक्रिया को क्या कहा जाता है जिसके द्वारा तरल पानी वाष्प में बदल जाता है?",
+      "options": [
+        "Condensation",
+        "Precipitation",
+        "Evaporation",
+        "Sublimation"
+      ],
+      "optionsHindi": [
+        "संघनन (Condensation)",
+        "वर्षण (Precipitation)",
+        "वाष्पीकरण (Evaporation)",
+        "ऊर्ध्वपातन (Sublimation)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The speed of light in a vacuum is approximately how much?",
+      "textHindi": "निर्वात (vacuum) में प्रकाश की गति लगभग कितनी होती है?",
+      "options": [
+        "300,000 km/s",
+        "150,000 km/s",
+        "1,000,000 km/s",
+        "30,000 km/s"
+      ],
+      "optionsHindi": [
+        "300,000 किमी/सेकंड",
+        "150,000 किमी/सेकंड",
+        "1,000,000 किमी/सेकंड",
+        "30,000 किमी/सेकंड"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "Which gas makes up the majority of Earth's atmosphere?",
+      "textHindi": "पृथ्वी के वायुमंडल में कौन सी गैस सबसे अधिक मात्रा में है?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "optionsHindi": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "आर्गन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Who is known as the 'Iron Man of India'?",
+      "textHindi": "भारत के 'लौह पुरुष' (Iron Man) के रूप में किसे जाना जाता है?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Sardar Vallabhbhai Patel",
+        "Subhas Chandra Bose",
+        "Bhagat Singh"
+      ],
+      "optionsHindi": [
+        "जवाहरलाल नेहरू",
+        "सरदार वल्लभभाई पटेल",
+        "सुभाष चंद्र बोस",
+        "भगत सिंह"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What type of galaxy is our Milky Way?",
+      "textHindi": "हमारी आकाशगंगा (Milky Way) किस प्रकार की आकाशगंगा है?",
+      "options": [
+        "Elliptical",
+        "Spiral",
+        "Irregular",
+        "Lenticular"
+      ],
+      "optionsHindi": [
+        "अंडाकार (Elliptical)",
+        "सर्पिल (Spiral)",
+        "अनियमित (Irregular)",
+        "लेंस के आकार का (Lenticular)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which blood type is known as the universal donor?",
+      "textHindi": "किस रक्त समूह को सार्वभौमिक दाता (universal donor) के रूप में जाना जाता है?",
+      "options": [
+        "A Positive",
+        "AB Positive",
+        "O Negative",
+        "B Negative"
+      ],
+      "optionsHindi": [
+        "A पॉजिटिव",
+        "AB पॉजिटिव",
+        "O नेगेटिव",
+        "B नेगेटिव"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the main function of red blood cells in the body?",
+      "textHindi": "शरीर में लाल रक्त कोशिकाओं का मुख्य कार्य क्या है?",
+      "options": [
+        "Fight infection",
+        "Carry oxygen",
+        "Clot blood",
+        "Digest food"
+      ],
+      "optionsHindi": [
+        "संक्रमण से लड़ना",
+        "ऑक्सीजन ले जाना",
+        "रक्त का थक्का जमना",
+        "भोजन पचाना"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which planet is often called the 'Morning Star' or 'Evening Star'?",
+      "textHindi": "किस ग्रह को अक्सर 'भोर का तारा' या 'शाम का तारा' कहा जाता है?",
+      "options": [
+        "Mars",
+        "Mercury",
+        "Jupiter",
+        "Venus"
+      ],
+      "optionsHindi": [
+        "मंगल",
+        "बुध",
+        "बृहस्पति",
+        "शुक्र"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "The Amazon Rainforest produces roughly what percentage of the world's oxygen?",
+      "textHindi": "अमेज़ॅन वर्षावन दुनिया के ऑक्सीजन का लगभग कितना प्रतिशत उत्पादन करता है?",
+      "options": [
+        "50%",
+        "20%",
+        "5%",
+        "80%"
+      ],
+      "optionsHindi": [
+        "50%",
+        "20%",
+        "5%",
+        "80%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the capital of Canada?",
+      "textHindi": "कनाडा की राजधानी क्या है?",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Ottawa",
+        "Montreal"
+      ],
+      "optionsHindi": [
+        "टोरंटो",
+        "वैंकूवर",
+        "ओटावा",
+        "मॉन्ट्रियल"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Who invented the telephone?",
+      "textHindi": "टेलीफोन का आविष्कार किसने किया?",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell",
+        "Guglielmo Marconi"
+      ],
+      "optionsHindi": [
+        "थॉमस एडिसन",
+        "निकोला टेस्ला",
+        "अलेक्जेंडर ग्राहम बेल",
+        "गुग्लिल्मो मार्कोनी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which organ in the human body produces insulin?",
+      "textHindi": "मानव शरीर में कौन सा अंग इंसुलिन का उत्पादन करता है?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Kidney",
+        "Stomach"
+      ],
+      "optionsHindi": [
+        "यकृत (Liver)",
+        "अग्न्याशय (Pancreas)",
+        "गुर्दा (Kidney)",
+        "पेट"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the study of weather called?",
+      "textHindi": "मौसम के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "Geology",
+        "Ecology",
+        "Meteorology",
+        "Astronomy"
+      ],
+      "optionsHindi": [
+        "भूविज्ञान",
+        "पारिस्थितिकी",
+        "मौसम विज्ञान (Meteorology)",
+        "खगोल विज्ञान"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The Great Wall of China was primarily built to protect against which empire?",
+      "textHindi": "चीन की महान दीवार मुख्य रूप से किस साम्राज्य से बचाव के लिए बनाई गई थी?",
+      "options": [
+        "Roman Empire",
+        "Mongol Empire",
+        "Persian Empire",
+        "Ottoman Empire"
+      ],
+      "optionsHindi": [
+        "रोमन साम्राज्य",
+        "मंगोल साम्राज्य",
+        "फारसी साम्राज्य",
+        "ओटोमन साम्राज्य"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the chemical symbol for Silver?",
+      "textHindi": "चांदी (Silver) का रासायनिक प्रतीक क्या है?",
+      "options": [
+        "Si",
+        "Au",
+        "Ag",
+        "Sr"
+      ],
+      "optionsHindi": [
+        "Si",
+        "Au",
+        "Ag",
+        "Sr"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which layer of the Earth's atmosphere protects us from harmful UV rays?",
+      "textHindi": "पृथ्वी के वायुमंडल की कौन सी परत हमें हानिकारक यूवी किरणों से बचाती है?",
+      "options": [
+        "Troposphere",
+        "Ozone Layer",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "optionsHindi": [
+        "क्षोभमंडल (Troposphere)",
+        "ओजोन परत",
+        "मध्यमंडल (Mesosphere)",
+        "बाह्यमंडल (Exosphere)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Who discovered the law of gravity when an apple supposedly fell on his head?",
+      "textHindi": "किसने गुरुत्वाकर्षण के नियम की खोज की जब कथित तौर पर एक सेब उनके सिर पर गिरा था?",
+      "options": [
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Isaac Newton",
+        "Nikola Tesla"
+      ],
+      "optionsHindi": [
+        "गैलीलियो गैलीली",
+        "अल्बर्ट आइंस्टीन",
+        "आइजैक न्यूटन",
+        "निकोला टेस्ला"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which Indian city is known as the 'Silicon Valley of India'?",
+      "textHindi": "किस भारतीय शहर को 'भारत की सिलिकॉन वैली' के रूप में जाना जाता है?",
+      "options": [
+        "Hyderabad",
+        "Pune",
+        "Bengaluru",
+        "Chennai"
+      ],
+      "optionsHindi": [
+        "हैदराबाद",
+        "पुणे",
+        "बेंगलुरु",
+        "चेन्नई"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the hottest planet in our solar system?",
+      "textHindi": "हमारे सौर मंडल का सबसे गर्म ग्रह कौन सा है?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "optionsHindi": [
+        "बुध",
+        "शुक्र",
+        "मंगल",
+        "बृहस्पति"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which is the largest ocean on Earth?",
+      "textHindi": "पृथ्वी पर सबसे बड़ा महासागर कौन सा है?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "optionsHindi": [
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "How many hearts does an octopus have?",
+      "textHindi": "ऑक्टोपस के कितने दिल होते हैं?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "optionsHindi": [
+        "एक",
+        "दो",
+        "तीन",
+        "चार"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the name of the highest civilian award in India?",
+      "textHindi": "भारत के सर्वोच्च नागरिक सम्मान का क्या नाम है?",
+      "options": [
+        "Padma Vibhushan",
+        "Param Vir Chakra",
+        "Bharat Ratna",
+        "Padma Shri"
+      ],
+      "optionsHindi": [
+        "पद्म विभूषण",
+        "परमवीर चक्र",
+        "भारत रत्न",
+        "पद्म श्री"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What phenomenon causes the sky to appear blue?",
+      "textHindi": "किस घटना के कारण आसमान नीला दिखाई देता है?",
+      "options": [
+        "Reflection",
+        "Diffraction",
+        "Rayleigh scattering",
+        "Absorption"
+      ],
+      "optionsHindi": [
+        "परावर्तन (Reflection)",
+        "विवर्तन (Diffraction)",
+        "रेले प्रकीर्णन (Rayleigh scattering)",
+        "अवशोषण (Absorption)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which vitamin is produced by the human body when exposed to sunlight?",
+      "textHindi": "सूर्य के प्रकाश के संपर्क में आने पर मानव शरीर द्वारा कौन सा विटामिन निर्मित होता है?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "optionsHindi": [
+        "विटामिन A",
+        "विटामिन B",
+        "विटामिन C",
+        "विटामिन D"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the currency of the United Kingdom?",
+      "textHindi": "यूनाइटेड किंगडम की मुद्रा क्या है?",
+      "options": [
+        "Euro",
+        "Pound Sterling",
+        "Dollar",
+        "Franc"
+      ],
+      "optionsHindi": [
+        "यूरो",
+        "पाउंड स्टर्लिंग",
+        "डॉलर",
+        "फ़्रैंक"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which Indian state is the largest by area?",
+      "textHindi": "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन सा है?",
+      "options": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Uttar Pradesh"
+      ],
+      "optionsHindi": [
+        "मध्य प्रदेश",
+        "महाराष्ट्र",
+        "राजस्थान",
+        "उत्तर प्रदेश"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Who wrote the famous play 'Romeo and Juliet'?",
+      "textHindi": "प्रसिद्ध नाटक 'रोमियो और जूलियट' किसने लिखा था?",
+      "options": [
+        "Charles Dickens",
+        "Mark Twain",
+        "William Shakespeare",
+        "Jane Austen"
+      ],
+      "optionsHindi": [
+        "चार्ल्स डिकेंस",
+        "मार्क ट्वेन",
+        "विलियम शेक्सपियर",
+        "जेन ऑस्टेन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which famous scientist proposed the three laws of motion?",
+      "textHindi": "किस प्रसिद्ध वैज्ञानिक ने गति के तीन नियमों का प्रतिपादन किया?",
+      "options": [
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Albert Einstein",
+        "Johannes Kepler"
+      ],
+      "optionsHindi": [
+        "गैलीलियो गैलीली",
+        "आइजैक न्यूटन",
+        "अल्बर्ट आइंस्टीन",
+        "जोहान्स केपलर"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the process of a caterpillar turning into a butterfly called?",
+      "textHindi": "कैटरपिलर के तितली में बदलने की प्रक्रिया को क्या कहा जाता है?",
+      "options": [
+        "Photosynthesis",
+        "Evolution",
+        "Metamorphosis",
+        "Mutation"
+      ],
+      "optionsHindi": [
+        "प्रकाश संश्लेषण",
+        "विकास (Evolution)",
+        "कायापलट (Metamorphosis)",
+        "उत्परिवर्तन (Mutation)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which planet is closest in size to Earth and often called its 'sister planet'?",
+      "textHindi": "कौन सा ग्रह आकार में पृथ्वी के सबसे करीब है और इसे अक्सर 'बहन ग्रह' कहा जाता है?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Mercury",
+        "Neptune"
+      ],
+      "optionsHindi": [
+        "मंगल",
+        "शुक्र",
+        "बुध",
+        "नेपच्यून"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which element is famous for being used inside pencils?",
+      "textHindi": "कौन सा तत्व पेंसिल के अंदर उपयोग किए जाने के लिए प्रसिद्ध है?",
+      "options": [
+        "Lead",
+        "Graphite",
+        "Charcoal",
+        "Zinc"
+      ],
+      "optionsHindi": [
+        "सीसा (Lead)",
+        "ग्रेफाइट",
+        "लकड़ी का कोयला",
+        "जस्ता"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The Eiffel Tower is located in which city?",
+      "textHindi": "एफिल टॉवर किस शहर में स्थित है?",
+      "options": [
+        "London",
+        "New York",
+        "Rome",
+        "Paris"
+      ],
+      "optionsHindi": [
+        "लंदन",
+        "न्यूयॉर्क",
+        "रोम",
+        "पेरिस"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the chemical formula for pure water?",
+      "textHindi": "शुद्ध पानी का रासायनिक सूत्र क्या है?",
+      "options": [
+        "CO2",
+        "O2",
+        "H2O",
+        "H2O2"
+      ],
+      "optionsHindi": [
+        "CO2",
+        "O2",
+        "H2O",
+        "H2O2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "P is the mother of Q. Q is the sister of R. R is the son of S. How is P related to S?",
+      "textHindi": "P, Q की माँ है। Q, R की बहन है। R, S का पुत्र है। P, S से किस प्रकार संबंधित है?",
+      "options": [
+        "Sister",
+        "Mother",
+        "Daughter",
+        "Wife"
+      ],
+      "optionsHindi": [
+        "बहन",
+        "माँ",
+        "बेटी",
+        "पत्नी"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What comes next in the sequence: 1, 4, 9, 16, 25, __?",
+      "textHindi": "इस क्रम में आगे क्या आएगा: 1, 4, 9, 16, 25, __?",
+      "options": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "optionsHindi": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Pointing to a woman, a man says, 'Her mother is the only daughter of my mother-in-law.' How is the man related to the woman?",
+      "textHindi": "एक महिला की ओर इशारा करते हुए एक आदमी कहता है, 'उसकी माँ मेरी सास की इकलौती बेटी है।' आदमी महिला से कैसे संबंधित है?",
+      "options": [
+        "Uncle",
+        "Husband",
+        "Father",
+        "Brother"
+      ],
+      "optionsHindi": [
+        "चाचा",
+        "पति",
+        "पिता",
+        "भाई"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "If all dogs are animals, and some animals are cats, can we definitely say some dogs are cats?",
+      "textHindi": "यदि सभी कुत्ते जानवर हैं, और कुछ जानवर बिल्लियाँ हैं, तो क्या हम निश्चित रूप से कह सकते हैं कि कुछ कुत्ते बिल्लियाँ हैं?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Cannot be determined"
+      ],
+      "optionsHindi": [
+        "हाँ",
+        "नहीं (No)",
+        "शायद",
+        "तय नहीं किया जा सकता"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which number should replace the question mark? 5, 10, 20, 40, ?",
+      "textHindi": "प्रश्न चिह्न के स्थान पर कौन सी संख्या आनी चाहिए? 5, 10, 20, 40, ?",
+      "options": [
+        "50",
+        "60",
+        "80",
+        "100"
+      ],
+      "optionsHindi": [
+        "50",
+        "60",
+        "80",
+        "100"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Pointing to a photograph, a woman says, 'His brother's father is the only son of my grandfather.' How is the woman related to the man in the photograph?",
+      "textHindi": "एक तस्वीर की ओर इशारा करते हुए एक महिला कहती है, 'इसके भाई के पिता मेरे दादा के इकलौते बेटे हैं।' महिला तस्वीर वाले व्यक्ति से कैसे संबंधित है?",
+      "options": [
+        "Aunt",
+        "Daughter",
+        "Sister",
+        "Mother"
+      ],
+      "optionsHindi": [
+        "चाची",
+        "बेटी",
+        "बहन",
+        "माँ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What comes next in the sequence: 2, 6, 12, 20, __?",
+      "textHindi": "इस क्रम में आगे क्या आएगा: 2, 6, 12, 20, __?",
+      "options": [
+        "24",
+        "28",
+        "30",
+        "36"
+      ],
+      "optionsHindi": [
+        "24",
+        "28",
+        "30",
+        "36"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Pointing to a lady, a man said, 'The son of her only brother is the brother of my wife.' How is the lady related to the man's wife?",
+      "textHindi": "एक महिला की ओर इशारा करते हुए एक आदमी ने कहा, 'उसके इकलौते भाई का बेटा मेरी पत्नी का भाई है।' वह महिला उस आदमी की पत्नी से कैसे संबंधित है?",
+      "options": [
+        "Mother",
+        "Aunt",
+        "Sister",
+        "Grandmother"
+      ],
+      "optionsHindi": [
+        "माँ",
+        "चाची/बुआ (Aunt)",
+        "बहन",
+        "दादी/नानी"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "In which Indian state is the famous Taj Mahal located?",
+      "textHindi": "प्रसिद्ध ताजमहल भारत के किस राज्य में स्थित है?",
+      "options": [
+        "Rajasthan",
+        "Maharashtra",
+        "Delhi",
+        "Uttar Pradesh"
+      ],
+      "optionsHindi": [
+        "राजस्थान",
+        "महाराष्ट्र",
+        "दिल्ली",
+        "उत्तर प्रदेश"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "Which ocean lies directly to the south of the Indian subcontinent?",
+      "textHindi": "भारतीय उपमहाद्वीप के ठीक दक्षिण में कौन सा महासागर स्थित है?",
+      "options": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "optionsHindi": [
+        "प्रशांत महासागर",
+        "अटलांटिक महासागर",
+        "हिंद महासागर",
+        "आर्कटिक महासागर"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Identify this famous monument.",
+      "textHindi": "इस प्रसिद्ध स्मारक को पहचानें।",
+      "options": [
+        "Red Fort",
+        "Qutub Minar",
+        "Taj Mahal",
+        "India Gate"
+      ],
+      "optionsHindi": [
+        "लाल किला",
+        "कुतुब मीनार",
+        "ताजमहल",
+        "इंडिया गेट"
+      ],
+      "correctIndex": 2,
+      "image": "assets/images/taj_mahal.png"
+    },
+    {
+      "text": "Identify this iconic landmark.",
+      "textHindi": "इस प्रतिष्ठित लैंडमार्क को पहचानें।",
+      "options": [
+        "Big Ben",
+        "Eiffel Tower",
+        "Leaning Tower of Pisa",
+        "Empire State Building"
+      ],
+      "optionsHindi": [
+        "बिग बेन",
+        "एफिल टॉवर",
+        "पीसा की झुकी मीनार",
+        "एम्पायर स्टेट बिल्डिंग"
+      ],
+      "correctIndex": 1,
+      "image": "assets/images/eiffel_tower.png"
+    },
+    {
+      "text": "Identify this ancient wonder.",
+      "textHindi": "इस प्राचीन आश्चर्य को पहचानें।",
+      "options": [
+        "Colosseum",
+        "Taj Mahal",
+        "Pyramids of Giza",
+        "Machu Picchu"
+      ],
+      "optionsHindi": [
+        "कोलोसियम",
+        "ताजमहल",
+        "गीज़ा के पिरामिड",
+        "माचू पिचू"
+      ],
+      "correctIndex": 2,
+      "image": "assets/images/pyramids.png"
+    },
+    {
+      "text": "Identify this musical instrument.",
+      "textHindi": "इस वाद्य यंत्र को पहचानें।",
+      "options": [
+        "Guitar",
+        "Piano",
+        "Violin",
+        "Flute"
+      ],
+      "optionsHindi": [
+        "गिटार",
+        "पियानो",
+        "वायलिन",
+        "बांसुरी"
+      ],
+      "correctIndex": 2,
+      "image": "assets/images/violin.jpg"
+    },
+    {
+      "text": "Identify this mode of flight.",
+      "textHindi": "उड़ान के इस तरीके को पहचानें।",
+      "options": [
+        "Helicopter",
+        "Airplane",
+        "Hot Air Balloon",
+        "Drone"
+      ],
+      "optionsHindi": [
+        "हेलीकाप्टर",
+        "हवाई जहाज",
+        "हॉट एयर बैलून",
+        "ड्रोन"
+      ],
+      "correctIndex": 2,
+      "image": "assets/images/hot_air_balloon.jpg"
+    }
+  ],
+  "hard": [
+    {
+      "text": "Who was the first Indian scientist to win a Nobel Prize in Physics?",
+      "textHindi": "भौतिकी में नोबेल पुरस्कार जीतने वाले पहले भारतीय वैज्ञानिक कौन थे?",
+      "options": [
+        "Satyendra Nath Bose",
+        "C.V. Raman",
+        "Homi J. Bhabha",
+        "S. Chandrasekhar"
+      ],
+      "optionsHindi": [
+        "सत्येंद्र नाथ बोस",
+        "सी.वी. रमन",
+        "होमी जे. भाभा",
+        "एस. चंद्रशेखर"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the escape velocity required to leave Earth's gravitational pull?",
+      "textHindi": "पृथ्वी के गुरुत्वाकर्षण खिंचाव को छोड़ने के लिए आवश्यक पलायन वेग (escape velocity) क्या है?",
+      "options": [
+        "9.8 km/s",
+        "11.2 km/s",
+        "14.5 km/s",
+        "8.5 km/s"
+      ],
+      "optionsHindi": [
+        "9.8 किमी/सेकंड",
+        "11.2 किमी/सेकंड",
+        "14.5 किमी/सेकंड",
+        "8.5 किमी/सेकंड"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which fundamental force of nature is responsible for radioactive decay?",
+      "textHindi": "प्रकृति का कौन सा मूलभूत बल रेडियोधर्मी क्षय (radioactive decay) के लिए जिम्मेदार है?",
+      "options": [
+        "Gravitational Force",
+        "Electromagnetic Force",
+        "Strong Nuclear Force",
+        "Weak Nuclear Force"
+      ],
+      "optionsHindi": [
+        "गुरुत्वाकर्षण बल",
+        "विद्युत चुम्बकीय बल",
+        "मजबूत परमाणु बल",
+        "कमजोर परमाणु बल"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the primary gas found in the atmosphere of Venus, causing a runaway greenhouse effect?",
+      "textHindi": "शुक्र के वायुमंडल में पाई जाने वाली प्राथमिक गैस कौन सी है, जो भगोड़ा ग्रीनहाउस प्रभाव (runaway greenhouse effect) पैदा करती है?",
+      "options": [
+        "Methane",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Sulfur Dioxide"
+      ],
+      "optionsHindi": [
+        "मीथेन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "सल्फर डाइऑक्साइड"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "In thermodynamics, what does the zeroth law define?",
+      "textHindi": "ऊष्मप्रवैगिकी (thermodynamics) में, शून्यवाँ नियम (zeroth law) क्या परिभाषित करता है?",
+      "options": [
+        "Concept of Energy",
+        "Concept of Entropy",
+        "Concept of Temperature",
+        "Concept of Work"
+      ],
+      "optionsHindi": [
+        "ऊर्जा की अवधारणा",
+        "एन्ट्रॉपी की अवधारणा",
+        "तापमान की अवधारणा",
+        "कार्य की अवधारणा"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which is the most abundant element in the Earth's crust by mass?",
+      "textHindi": "द्रव्यमान (mass) के हिसाब से पृथ्वी की पपड़ी में सबसे प्रचुर मात्रा में पाया जाने वाला तत्व कौन सा है?",
+      "options": [
+        "Silicon",
+        "Iron",
+        "Aluminum",
+        "Oxygen"
+      ],
+      "optionsHindi": [
+        "सिलिकॉन",
+        "लोहा",
+        "एल्यूमिनियम",
+        "ऑक्सीजन"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the phenomenon called when a star collapses into a dense point with gravitational pull so strong that not even light can escape?",
+      "textHindi": "उस घटना को क्या कहा जाता है जब कोई तारा गुरुत्वाकर्षण खिंचाव के साथ एक घने बिंदु में गिर जाता है जो इतना मजबूत होता है कि प्रकाश भी नहीं बच सकता?",
+      "options": [
+        "Supernova",
+        "Neutron Star",
+        "White Dwarf",
+        "Black Hole"
+      ],
+      "optionsHindi": [
+        "सुपरनोवा",
+        "न्यूट्रॉन स्टार",
+        "सफेद बौना (White Dwarf)",
+        "ब्लैक होल"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "Who proposed the continental drift theory?",
+      "textHindi": "महाद्वीपीय बहाव सिद्धांत (continental drift theory) का प्रस्ताव किसने दिया था?",
+      "options": [
+        "Charles Darwin",
+        "Alfred Wegener",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ],
+      "optionsHindi": [
+        "चार्ल्स डार्विन",
+        "अल्फ्रेड वेगेनर",
+        "आइजैक न्यूटन",
+        "गैलीलियो गैलीली"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the name of the first artificial Earth satellite launched into space?",
+      "textHindi": "अंतरिक्ष में प्रक्षेपित पहले कृत्रिम पृथ्वी उपग्रह का नाम क्या है?",
+      "options": [
+        "Apollo 1",
+        "Explorer 1",
+        "Sputnik 1",
+        "Vostok 1"
+      ],
+      "optionsHindi": [
+        "अपोलो 1",
+        "एक्सप्लोरर 1",
+        "स्पुतनिक 1",
+        "वोस्तोक 1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Who was the first Indian woman to climb Mount Everest?",
+      "textHindi": "माउंट एवरेस्ट पर चढ़ने वाली पहली भारतीय महिला कौन थीं?",
+      "options": [
+        "Santosh Yadav",
+        "Bachendri Pal",
+        "Arunima Sinha",
+        "Premlata Agarwal"
+      ],
+      "optionsHindi": [
+        "संतोष यादव",
+        "बछेंद्री पाल",
+        "अरुणिमा सिन्हा",
+        "प्रेमलता अग्रवाल"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the study of fossils called?",
+      "textHindi": "जीवाश्मों (fossils) के अध्ययन को क्या कहा जाता है?",
+      "options": [
+        "Archaeology",
+        "Paleontology",
+        "Anthropology",
+        "Geology"
+      ],
+      "optionsHindi": [
+        "पुरातत्व (Archaeology)",
+        "जीवाश्म विज्ञान (Paleontology)",
+        "मानव विज्ञान (Anthropology)",
+        "भूविज्ञान (Geology)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "According to Einstein's theory of relativity, what is the fourth dimension?",
+      "textHindi": "आइंस्टीन के सापेक्षता के सिद्धांत (theory of relativity) के अनुसार, चौथा आयाम क्या है?",
+      "options": [
+        "Space",
+        "Gravity",
+        "Time",
+        "Light"
+      ],
+      "optionsHindi": [
+        "अंतरिक्ष",
+        "गुरुत्वाकर्षण",
+        "समय",
+        "प्रकाश"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The 'Chandrayaan-3' mission successfully landed near which pole of the Moon?",
+      "textHindi": "'चंद्रयान-3' मिशन चंद्रमा के किस ध्रुव के पास सफलतापूर्वक उतरा?",
+      "options": [
+        "North Pole",
+        "South Pole",
+        "Equator",
+        "Dark Side"
+      ],
+      "optionsHindi": [
+        "उत्तरी ध्रुव",
+        "दक्षिणी ध्रुव",
+        "भूमध्य रेखा",
+        "अंधेरा पक्ष (Dark Side)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is the name of the supercontinent that existed millions of years ago?",
+      "textHindi": "लाखों वर्ष पूर्व अस्तित्व में रहे महाद्वीप (supercontinent) का क्या नाम है?",
+      "options": [
+        "Atlantis",
+        "Gondwana",
+        "Pangaea",
+        "Laurasia"
+      ],
+      "optionsHindi": [
+        "अटलांटिस",
+        "गोंडवाना",
+        "पैंजिया (Pangaea)",
+        "लॉरेशिया"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which Indian king was known for spreading Buddhism across Asia?",
+      "textHindi": "कौन सा भारतीय राजा पूरे एशिया में बौद्ध धर्म फैलाने के लिए जाना जाता था?",
+      "options": [
+        "Chandragupta Maurya",
+        "Ashoka",
+        "Harsha",
+        "Samudragupta"
+      ],
+      "optionsHindi": [
+        "चंद्रगुप्त मौर्य",
+        "अशोक",
+        "हर्ष",
+        "समुद्रगुप्त"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "In particle physics, what is the antiparticle of the electron?",
+      "textHindi": "कण भौतिकी (particle physics) में, इलेक्ट्रॉन का प्रतिकण (antiparticle) क्या है?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Positron",
+        "Neutrino"
+      ],
+      "optionsHindi": [
+        "प्रोटॉन",
+        "न्यूट्रॉन",
+        "पॉज़िट्रॉन",
+        "न्यूट्रिनो"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which is the deepest oceanic trench on Earth?",
+      "textHindi": "पृथ्वी पर सबसे गहरी समुद्री खाई (oceanic trench) कौन सी है?",
+      "options": [
+        "Tonga Trench",
+        "Mariana Trench",
+        "Puerto Rico Trench",
+        "Kermadec Trench"
+      ],
+      "optionsHindi": [
+        "टोंगा ट्रेंच",
+        "मारियाना ट्रेंच",
+        "प्यूर्टो रिको ट्रेंच",
+        "करमाडेक ट्रेंच"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The James Webb Space Telescope operates primarily in which part of the electromagnetic spectrum?",
+      "textHindi": "जेम्स वेब स्पेस टेलीस्कोप मुख्य रूप से विद्युत चुम्बकीय स्पेक्ट्रम के किस भाग में संचालित होता है?",
+      "options": [
+        "Visible Light",
+        "Ultraviolet",
+        "Infrared",
+        "X-ray"
+      ],
+      "optionsHindi": [
+        "दृश्य प्रकाश (Visible Light)",
+        "पराबैंगनी (Ultraviolet)",
+        "इन्फ्रारेड",
+        "एक्स-रे"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Who won the Nobel Prize in Physics for discovering the photoelectric effect?",
+      "textHindi": "प्रकाश वैद्युत प्रभाव (photoelectric effect) की खोज के लिए भौतिकी में नोबेल पुरस्कार किसने जीता?",
+      "options": [
+        "Niels Bohr",
+        "Max Planck",
+        "Marie Curie",
+        "Albert Einstein"
+      ],
+      "optionsHindi": [
+        "नील्स बोहर",
+        "मैक्स प्लैंक",
+        "मैरी क्यूरी",
+        "अल्बर्ट आइंस्टीन"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the biological term for animals that are active primarily during twilight?",
+      "textHindi": "गोधूलि (twilight) के दौरान मुख्य रूप से सक्रिय रहने वाले जानवरों के लिए जैविक शब्द क्या है?",
+      "options": [
+        "Nocturnal",
+        "Diurnal",
+        "Crepuscular",
+        "Matutinal"
+      ],
+      "optionsHindi": [
+        "निशाचर (Nocturnal)",
+        "दिवाचर (Diurnal)",
+        "क्रेपस्कुलर (Crepuscular)",
+        "मैटुटिनल (Matutinal)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which constitutional amendment in India lowered the voting age from 21 to 18?",
+      "textHindi": "भारत में किस संवैधानिक संशोधन ने मतदान की आयु 21 से घटाकर 18 वर्ष कर दी?",
+      "options": [
+        "42nd Amendment",
+        "44th Amendment",
+        "61st Amendment",
+        "73rd Amendment"
+      ],
+      "optionsHindi": [
+        "42वां संशोधन",
+        "44वां संशोधन",
+        "61वां संशोधन",
+        "73वां संशोधन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the most abundant metal in the Earth's crust?",
+      "textHindi": "पृथ्वी की पपड़ी में सबसे प्रचुर धातु कौन सी है?",
+      "options": [
+        "Iron",
+        "Aluminum",
+        "Copper",
+        "Zinc"
+      ],
+      "optionsHindi": [
+        "लोहा",
+        "एल्यूमिनियम",
+        "तांबा",
+        "जस्ता"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The concept of 'Black Holes' was first theoretically predicted by which theory?",
+      "textHindi": "'ब्लैक होल' की अवधारणा की पहली सैद्धांतिक भविष्यवाणी किस सिद्धांत द्वारा की गई थी?",
+      "options": [
+        "Quantum Mechanics",
+        "String Theory",
+        "General Relativity",
+        "Special Relativity"
+      ],
+      "optionsHindi": [
+        "क्वांटम यांत्रिकी",
+        "स्ट्रिंग थ्योरी",
+        "सामान्य सापेक्षता (General Relativity)",
+        "विशेष सापेक्षता (Special Relativity)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which river crosses the equator twice?",
+      "textHindi": "कौन सी नदी भूमध्य रेखा को दो बार पार करती है?",
+      "options": [
+        "Nile",
+        "Amazon",
+        "Congo",
+        "Mekong"
+      ],
+      "optionsHindi": [
+        "नील",
+        "अमेज़न",
+        "कांगो",
+        "मेकांग"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the rarest naturally occurring element in the Earth's crust?",
+      "textHindi": "पृथ्वी की पपड़ी में प्राकृतिक रूप से पाया जाने वाला सबसे दुर्लभ तत्व कौन सा है?",
+      "options": [
+        "Francium",
+        "Astatine",
+        "Polonium",
+        "Radium"
+      ],
+      "optionsHindi": [
+        "फ्रांसियम",
+        "एस्टाटीन (Astatine)",
+        "पोलोनियम",
+        "रेडियम"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "In astronomy, what does the term 'Parsec' measure?",
+      "textHindi": "खगोल विज्ञान में, 'पारसेक' (Parsec) शब्द क्या मापता है?",
+      "options": [
+        "Time",
+        "Speed",
+        "Distance",
+        "Mass"
+      ],
+      "optionsHindi": [
+        "समय",
+        "गति",
+        "दूरी",
+        "द्रव्यमान"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The 'Higgs Boson' particle is often referred to by what popular nickname?",
+      "textHindi": "'हिग्स बोसोन' कण को अक्सर किस लोकप्रिय उपनाम से जाना जाता है?",
+      "options": [
+        "Ghost Particle",
+        "God Particle",
+        "Alpha Particle",
+        "Omega Particle"
+      ],
+      "optionsHindi": [
+        "घोस्ट पार्टिकल",
+        "गॉड पार्टिकल",
+        "अल्फा पार्टिकल",
+        "ओमेगा पार्टिकल"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Who was the first woman to win a Nobel Prize?",
+      "textHindi": "नोबेल पुरस्कार जीतने वाली पहली महिला कौन थीं?",
+      "options": [
+        "Mother Teresa",
+        "Marie Curie",
+        "Rosalind Franklin",
+        "Dorothy Hodgkin"
+      ],
+      "optionsHindi": [
+        "मदर टेरेसा",
+        "मैरी क्यूरी",
+        "रोजालिंड फ्रैंकलिन",
+        "डोरोथी हॉजकिन"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which Indian mathematician is known for his work on the infinite series for pi?",
+      "textHindi": "कौन सा भारतीय गणितज्ञ पाई (pi) के लिए अनंत श्रृंखला पर अपने काम के लिए जाना जाता है?",
+      "options": [
+        "Aryabhata",
+        "Brahmagupta",
+        "Srinivasa Ramanujan",
+        "Shakuntala Devi"
+      ],
+      "optionsHindi": [
+        "आर्यभट्ट",
+        "ब्रह्मगुप्त",
+        "श्रीनिवास रामानुजन",
+        "शकुंतला देवी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the deepest known point in the Earth's oceans called?",
+      "textHindi": "पृथ्वी के महासागरों में सबसे गहरे ज्ञात बिंदु को क्या कहा जाता है?",
+      "options": [
+        "Mariana Trench",
+        "Challenger Deep",
+        "Tonga Trench",
+        "Puerto Rico Trench"
+      ],
+      "optionsHindi": [
+        "मारियाना ट्रेंच",
+        "चैलेंजर डीप",
+        "टोंगा ट्रेंच",
+        "प्यूर्टो रिको ट्रेंच"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which treaty officially ended World War I?",
+      "textHindi": "किस संधि ने आधिकारिक तौर पर प्रथम विश्व युद्ध को समाप्त किया?",
+      "options": [
+        "Treaty of Paris",
+        "Treaty of Versailles",
+        "Treaty of Tordesillas",
+        "Treaty of Ghent"
+      ],
+      "optionsHindi": [
+        "पेरिस की संधि",
+        "वर्साय की संधि (Treaty of Versailles)",
+        "टॉर्डेसिलस की संधि",
+        "गेन्ट की संधि"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "In computer science, what does 'HTTP' stand for?",
+      "textHindi": "कंप्यूटर विज्ञान में, 'HTTP' का क्या अर्थ है?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "HighText Transfer Protocol",
+        "HyperText Transmission Process",
+        "HyperText Transfer Program"
+      ],
+      "optionsHindi": [
+        "हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल",
+        "हाईटेक्स्ट ट्रांसफर प्रोटोकॉल",
+        "हाइपरटेक्स्ट ट्रांसमिशन प्रोसेस",
+        "हाइपरटेक्स्ट ट्रांसफर प्रोग्राम"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "What is the process of cell division that results in four daughter cells called?",
+      "textHindi": "कोशिका विभाजन की उस प्रक्रिया को क्या कहते हैं जिसके परिणामस्वरूप चार संतति कोशिकाएं (daughter cells) बनती हैं?",
+      "options": [
+        "Mitosis",
+        "Meiosis",
+        "Osmosis",
+        "Apoptosis"
+      ],
+      "optionsHindi": [
+        "माइटोसिस",
+        "अर्धसूत्रीविभाजन (Meiosis)",
+        "ऑस्मोसिस",
+        "एपोप्टोसिस"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which famous scientist developed the theory of general relativity?",
+      "textHindi": "किस प्रसिद्ध वैज्ञानिक ने सामान्य सापेक्षता (general relativity) का सिद्धांत विकसित किया?",
+      "options": [
+        "Isaac Newton",
+        "Nikola Tesla",
+        "Albert Einstein",
+        "Stephen Hawking"
+      ],
+      "optionsHindi": [
+        "आइजैक न्यूटन",
+        "निकोला टेस्ला",
+        "अल्बर्ट आइंस्टीन",
+        "स्टीफन हॉकिंग"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the name of the first rover to successfully land on Mars?",
+      "textHindi": "मंगल ग्रह पर सफलतापूर्वक उतरने वाले पहले रोवर का क्या नाम है?",
+      "options": [
+        "Curiosity",
+        "Spirit",
+        "Sojourner",
+        "Opportunity"
+      ],
+      "optionsHindi": [
+        "क्यूरियोसिटी",
+        "स्पिरिट",
+        "सोजॉर्नर (Sojourner)",
+        "अपॉर्चुनिटी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The ancient city of Mohenjo-Daro was a part of which civilization?",
+      "textHindi": "प्राचीन शहर मोहनजोदड़ो किस सभ्यता का हिस्सा था?",
+      "options": [
+        "Mesopotamian Civilization",
+        "Indus Valley Civilization",
+        "Egyptian Civilization",
+        "Maya Civilization"
+      ],
+      "optionsHindi": [
+        "मेसोपोटामिया सभ्यता",
+        "सिंधु घाटी सभ्यता",
+        "मिस्र की सभ्यता",
+        "माया सभ्यता"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which is the only planet in our solar system that rotates on its side?",
+      "textHindi": "हमारे सौर मंडल का वह एकमात्र ग्रह कौन सा है जो अपनी धुरी पर लेटकर (on its side) घूमता है?",
+      "options": [
+        "Neptune",
+        "Saturn",
+        "Uranus",
+        "Venus"
+      ],
+      "optionsHindi": [
+        "नेपच्यून",
+        "शनि",
+        "यूरेनस",
+        "शुक्र"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the main component of natural gas?",
+      "textHindi": "प्राकृतिक गैस का मुख्य घटक क्या है?",
+      "options": [
+        "Ethane",
+        "Propane",
+        "Butane",
+        "Methane"
+      ],
+      "optionsHindi": [
+        "ईथेन",
+        "प्रोपेन",
+        "ब्यूटेन",
+        "मीथेन"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "Which scientist formulated the laws of planetary motion?",
+      "textHindi": "किस वैज्ञानिक ने ग्रहों की गति के नियमों को प्रतिपादित किया?",
+      "options": [
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+        "Johannes Kepler",
+        "Isaac Newton"
+      ],
+      "optionsHindi": [
+        "गैलीलियो गैलीली",
+        "निकोलस कोपरनिकस",
+        "जोहान्स केपलर",
+        "आइजैक न्यूटन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the name of the boundary around a black hole beyond which nothing can escape?",
+      "textHindi": "ब्लैक होल के चारों ओर उस सीमा का क्या नाम है जिसके पार कुछ भी नहीं बच सकता है?",
+      "options": [
+        "Singularity",
+        "Photon Sphere",
+        "Event Horizon",
+        "Accretion Disk"
+      ],
+      "optionsHindi": [
+        "विलक्षणता (Singularity)",
+        "फोटॉन स्फीयर",
+        "इवेंट होराइजन (Event Horizon)",
+        "एक्रिशन डिस्क"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Who was the first person to propose the heliocentric model of the solar system?",
+      "textHindi": "सौरमंडल के हेलियोसेंट्रिक (सूर्य-केंद्रित) मॉडल का प्रस्ताव देने वाला पहला व्यक्ति कौन था?",
+      "options": [
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+        "Ptolemy",
+        "Johannes Kepler"
+      ],
+      "optionsHindi": [
+        "गैलीलियो गैलीली",
+        "निकोलस कोपरनिकस",
+        "टॉलेमी",
+        "जोहान्स केपलर"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "What is generally considered the rarest blood type among humans?",
+      "textHindi": "मनुष्यों में आम तौर पर सबसे दुर्लभ रक्त समूह किसे माना जाता है?",
+      "options": [
+        "O Positive",
+        "B Negative",
+        "AB Negative",
+        "A Negative"
+      ],
+      "optionsHindi": [
+        "O पॉजिटिव",
+        "B नेगेटिव",
+        "AB नेगेटिव",
+        "A नेगेटिव"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which chemical element is known for being liquid at room temperature?",
+      "textHindi": "कौन सा रासायनिक तत्व कमरे के तापमान पर तरल रहने के लिए जाना जाता है?",
+      "options": [
+        "Gallium",
+        "Bromine",
+        "Mercury",
+        "Francium"
+      ],
+      "optionsHindi": [
+        "गैलियम",
+        "ब्रोमीन",
+        "पारा (Mercury)",
+        "फ्रांसियम"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What is the name of the nearest major galaxy to our Milky Way?",
+      "textHindi": "हमारी आकाशगंगा (Milky Way) की सबसे निकटतम प्रमुख आकाशगंगा का क्या नाम है?",
+      "options": [
+        "Triangulum Galaxy",
+        "Andromeda Galaxy",
+        "Sombrero Galaxy",
+        "Whirlpool Galaxy"
+      ],
+      "optionsHindi": [
+        "ट्रायंगुलम गैलेक्सी",
+        "एंड्रोमेडा गैलेक्सी",
+        "सोम्ब्रेरो गैलेक्सी",
+        "व्हर्लपूल गैलेक्सी"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The 'Mach number' is a ratio comparing an object's speed to the speed of what?",
+      "textHindi": "'मैक संख्या' (Mach number) किसी वस्तु की गति की तुलना किसकी गति से करने का अनुपात है?",
+      "options": [
+        "Speed of Light",
+        "Speed of Sound",
+        "Speed of Earth's Rotation",
+        "Speed of Gravity"
+      ],
+      "optionsHindi": [
+        "प्रकाश की गति",
+        "ध्वनि की गति",
+        "पृथ्वी के घूर्णन की गति",
+        "गुरुत्वाकर्षण की गति"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which is the longest and strongest bone in the human body?",
+      "textHindi": "मानव शरीर की सबसे लंबी और मजबूत हड्डी कौन सी है?",
+      "options": [
+        "Tibia",
+        "Fibula",
+        "Femur",
+        "Humerus"
+      ],
+      "optionsHindi": [
+        "टिबिया",
+        "फिबुला",
+        "फीमर (Femur)",
+        "ह्यूमरस"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "What microscopic phenomenon allows geckos to effortlessly stick to walls and ceilings?",
+      "textHindi": "कौन सी सूक्ष्म घटना गेको (छिपकली) को दीवारों और छतों पर आसानी से चिपकने देती है?",
+      "options": [
+        "Static Electricity",
+        "Suction Cups",
+        "Capillary Action",
+        "Van der Waals forces"
+      ],
+      "optionsHindi": [
+        "स्थिर बिजली",
+        "सक्शन कप",
+        "केशिका क्रिया",
+        "वैन डेर वाल्स बल"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "In particle physics, what fundamental family of particles does the electron belong to?",
+      "textHindi": "कण भौतिकी में, इलेक्ट्रॉन किस मौलिक कण परिवार से संबंधित है?",
+      "options": [
+        "Quarks",
+        "Leptons",
+        "Bosons",
+        "Hadrons"
+      ],
+      "optionsHindi": [
+        "क्वार्क",
+        "लेप्टन",
+        "बोसोन",
+        "हैड्रॉन"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "A woman introduces a man as the son of the brother of her mother. How is the man related to the woman?",
+      "textHindi": "एक महिला एक आदमी का परिचय अपनी माँ के भाई के बेटे के रूप में कराती है। आदमी महिला से कैसे संबंधित है?",
+      "options": [
+        "Nephew",
+        "Uncle",
+        "Cousin",
+        "Son"
+      ],
+      "optionsHindi": [
+        "भतीजा",
+        "चाचा",
+        "चचेरा भाई (Cousin)",
+        "बेटा"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Introducing a boy, a girl said, 'He is the son of the daughter of the father of my uncle.' How is the boy related to the girl?",
+      "textHindi": "एक लड़के का परिचय देते हुए एक लड़की ने कहा, 'वह मेरे चाचा के पिता की बेटी का बेटा है।' लड़का लड़की से कैसे संबंधित है?",
+      "options": [
+        "Brother",
+        "Uncle",
+        "Cousin",
+        "Son-in-law"
+      ],
+      "optionsHindi": [
+        "भाई",
+        "चाचा",
+        "चचेरा भाई",
+        "दामाद"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "What comes next in the sequence of prime numbers: 2, 3, 5, 7, 11, __?",
+      "textHindi": "अभाज्य संख्याओं (prime numbers) के क्रम में आगे क्या आता है: 2, 3, 5, 7, 11, __?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "optionsHindi": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Pointing towards a girl in a picture, a man said, 'She is the mother of the only daughter of my son's wife.' How is the girl related to the man?",
+      "textHindi": "एक तस्वीर में एक लड़की की ओर इशारा करते हुए, एक आदमी ने कहा, 'वह मेरे बेटे की पत्नी की इकलौती बेटी की माँ है।' लड़की आदमी से कैसे संबंधित है?",
+      "options": [
+        "Daughter",
+        "Sister",
+        "Daughter-in-law",
+        "Wife"
+      ],
+      "optionsHindi": [
+        "बेटी",
+        "बहन",
+        "बहू (Daughter-in-law)",
+        "पत्नी"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "A man says to a woman, 'Your mother's husband's sister is my aunt.' How is the woman related to the man?",
+      "textHindi": "एक आदमी एक महिला से कहता है, 'तुम्हारी माँ के पति की बहन मेरी बुआ (aunt) है।' महिला आदमी से कैसे संबंधित है?",
+      "options": [
+        "Sister",
+        "Mother",
+        "Aunt",
+        "Wife"
+      ],
+      "optionsHindi": [
+        "बहन",
+        "माँ",
+        "चाची/बुआ",
+        "पत्नी"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "Pointing to a boy in a photograph, a girl says, 'He is the son of the only son of my mother.' How is the girl related to that boy?",
+      "textHindi": "एक तस्वीर में एक लड़के की ओर इशारा करते हुए, एक लड़की कहती है, 'वह मेरी माँ के इकलौते बेटे का बेटा है।' लड़की उस लड़के से कैसे संबंधित है?",
+      "options": [
+        "Sister",
+        "Mother",
+        "Aunt",
+        "Cousin"
+      ],
+      "optionsHindi": [
+        "बहन",
+        "माँ",
+        "चाची/बुआ (Aunt)",
+        "चचेरी बहन"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "A man introduces a lady as the daughter of the only sister of his father. How is the lady related to the man?",
+      "textHindi": "एक आदमी एक महिला का परिचय अपने पिता की इकलौती बहन की बेटी के रूप में कराता है। वह महिला उस आदमी से कैसे संबंधित है?",
+      "options": [
+        "Sister",
+        "Niece",
+        "Cousin",
+        "Aunt"
+      ],
+      "optionsHindi": [
+        "बहन",
+        "भतीजी/भांजी",
+        "चचेरी बहन (Cousin)",
+        "चाची/बुआ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which Indian state has the longest mainland coastline?",
+      "textHindi": "किस भारतीय राज्य की मुख्य भूमि तटरेखा (coastline) सबसे लंबी है?",
+      "options": [
+        "Tamil Nadu",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Gujarat"
+      ],
+      "optionsHindi": [
+        "तमिलनाडु",
+        "महाराष्ट्र",
+        "आंध्र प्रदेश",
+        "गुजरात"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "What is the astronomical phenomenon called when the moon completely blocks the sun?",
+      "textHindi": "उस खगोलीय घटना को क्या कहा जाता है जब चंद्रमा पूरी तरह से सूर्य को ढक लेता है?",
+      "options": [
+        "Lunar Eclipse",
+        "Total Solar Eclipse",
+        "Annular Eclipse",
+        "Transit"
+      ],
+      "optionsHindi": [
+        "चंद्र ग्रहण",
+        "पूर्ण सूर्य ग्रहण (Total Solar Eclipse)",
+        "वलयाकार ग्रहण",
+        "पारगमन (Transit)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The scientific study of the origin, evolution, and eventual fate of the universe is known as what?",
+      "textHindi": "ब्रह्मांड की उत्पत्ति, विकास और अंतिम भाग्य के वैज्ञानिक अध्ययन को किस रूप में जाना जाता है?",
+      "options": [
+        "Astrophysics",
+        "Astronomy",
+        "Cosmology",
+        "Ontology"
+      ],
+      "optionsHindi": [
+        "खगोल भौतिकी",
+        "खगोल विज्ञान (Astronomy)",
+        "ब्रह्मांड विज्ञान (Cosmology)",
+        "सत्तामीमांसा (Ontology)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Identify this ancient structure.",
+      "textHindi": "इस प्राचीन संरचना को पहचानें।",
+      "options": [
+        "Colosseum",
+        "Machu Picchu",
+        "Great Wall of China",
+        "Petra"
+      ],
+      "optionsHindi": [
+        "कोलोसियम",
+        "माचू पिचू",
+        "चीन की महान दीवार",
+        "पेट्रा"
+      ],
+      "correctIndex": 2,
+      "image": "assets/images/great_wall.png"
+    },
+    {
+      "text": "Identify this famous waterfall.",
+      "textHindi": "इस प्रसिद्ध झरने को पहचानें।",
+      "options": [
+        "Victoria Falls",
+        "Angel Falls",
+        "Niagara Falls",
+        "Iguazu Falls"
+      ],
+      "optionsHindi": [
+        "विक्टोरिया फॉल्स",
+        "एंजेल फॉल्स",
+        "नियाग्रा फॉल्स",
+        "इग्वाज़ू फॉल्स"
+      ],
+      "correctIndex": 2,
+      "image": "assets/images/niagara_falls.png"
+    },
+    {
+      "text": "Identify this classic navigation tool.",
+      "textHindi": "इस क्लासिक नेविगेशन टूल को पहचानें।",
+      "options": [
+        "Barometer",
+        "Compass",
+        "Sundial",
+        "Telescope"
+      ],
+      "optionsHindi": [
+        "बैरोमीटर",
+        "कम्पास",
+        "धूपघड़ी",
+        "दूरबीन"
+      ],
+      "correctIndex": 1,
+      "image": "assets/images/compass.png"
+    },
+    {
+      "text": "Identify this scientific instrument.",
+      "textHindi": "इस वैज्ञानिक उपकरण को पहचानें।",
+      "options": [
+        "Microscope",
+        "Telescope",
+        "Binoculars",
+        "Periscope"
+      ],
+      "optionsHindi": [
+        "सूक्ष्मदर्शी",
+        "दूरबीन",
+        "द्विनेत्री",
+        "पेरिस्कोप"
+      ],
+      "correctIndex": 0,
+      "image": "assets/images/microscope.png"
+    },
+    {
+      "text": "Identify this electronic machine.",
+      "textHindi": "इस इलेक्ट्रॉनिक मशीन को पहचानें।",
+      "options": [
+        "Television",
+        "Computer",
+        "Radio",
+        "Telephone"
+      ],
+      "optionsHindi": [
+        "टेलीविजन",
+        "कंप्यूटर",
+        "रेडियो",
+        "टेलीफोन"
+      ],
+      "correctIndex": 1,
+      "image": "assets/images/computer.jpg"
+    }
+  ]
+}

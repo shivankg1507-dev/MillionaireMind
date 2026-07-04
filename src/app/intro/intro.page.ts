@@ -10,10 +10,9 @@ import { SoundService } from '../services/sound.service';
   standalone: false,
 })
 export class IntroPage implements OnInit {
-  prizeLadder: string[] = [];
-  showLadder = false;
   isVideoPlaying = false;
   showPlayButton = false;
+  fadeOut = false;
 
   constructor(
     private router: Router,
@@ -24,7 +23,6 @@ export class IntroPage implements OnInit {
   @ViewChild('introVideo') videoElement!: ElementRef<HTMLVideoElement>;
 
   ngOnInit() {
-    this.prizeLadder = [...this.gameService.questions].map(q => q.prize).reverse();
   }
 
   ionViewDidEnter() {
@@ -44,8 +42,10 @@ export class IntroPage implements OnInit {
   }
 
   videoEnded() {
-    this.showLadder = true;
-    this.soundService.startSuspense(); 
+    this.fadeOut = true;
+    setTimeout(() => {
+      this.router.navigate(['/game'], { replaceUrl: true });
+    }, 800); // 800ms fade to black
   }
 
   videoPlaying() {
@@ -54,14 +54,8 @@ export class IntroPage implements OnInit {
   }
 
   skipVideo() {
-    if (!this.showLadder) {
+    if (!this.fadeOut) {
       this.videoEnded();
     }
-  }
-
-  startGame() {
-    if (!this.showLadder) return;
-    this.soundService.stopSuspense();
-    this.router.navigate(['/game']);
   }
 }

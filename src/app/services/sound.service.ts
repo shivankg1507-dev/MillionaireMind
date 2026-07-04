@@ -275,4 +275,23 @@ export class SoundService {
       this.ringGain.gain.linearRampToValueAtTime(0, this.audioCtx.currentTime + 0.1);
     }
   }
+
+  private audiencePollAudio: HTMLAudioElement | null = null;
+
+  playAudiencePoll() {
+    if (this.audiencePollAudio) {
+      this.audiencePollAudio.pause();
+      this.audiencePollAudio.currentTime = 0;
+    }
+    this.audiencePollAudio = new Audio('assets/sounds/audience_poll.m4a');
+    this.audiencePollAudio.volume = 1.0;
+    this.audiencePollAudio.play().catch(e => console.log('Audio play failed', e));
+  }
+
+  stopAudiencePoll() {
+    if (this.audiencePollAudio) {
+      this.audiencePollAudio.pause();
+      this.audiencePollAudio.currentTime = 0;
+    }
+  }
 }

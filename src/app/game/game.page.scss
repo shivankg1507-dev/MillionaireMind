@@ -33,11 +33,13 @@
 .prize-info {
   display: flex;
   flex-direction: column;
+
   .label {
     font-size: 0.8rem;
     color: #ffcf40;
     text-transform: uppercase;
   }
+
   .amount {
     font-size: 1.5rem;
     font-weight: bold;
@@ -48,11 +50,13 @@
 .lifelines {
   display: flex;
   gap: 5px;
+
   .lifeline-btn {
     --background: #3c2a74;
     --color: #fff;
     font-size: 0.7rem;
     height: 30px;
+
     &.used {
       --background: #221742;
       opacity: 0.5;
@@ -82,20 +86,20 @@
   background: radial-gradient(circle, #083c7d 0%, #03132e 100%);
   border-radius: 50%;
   border: 2px solid #c9a752;
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
   .timer-svg {
     position: absolute;
     width: 100%;
     height: 100%;
     transform: rotate(-90deg);
   }
-  
+
   .timer-bg {
     fill: none;
     stroke: transparent;
   }
-  
+
   .timer-progress {
     fill: none;
     stroke: #2bd82b;
@@ -103,7 +107,7 @@
     stroke-dasharray: 283;
     transition: stroke-dashoffset 1s linear;
   }
-  
+
   .timer-text {
     position: relative;
     color: white;
@@ -122,8 +126,9 @@
   align-items: center;
   margin-top: 15px;
   margin-bottom: 25px;
-  
-  &::before, &::after {
+
+  &::before,
+  &::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -132,8 +137,16 @@
     z-index: -1;
     box-shadow: 0 0 5px rgba(201, 167, 82, 0.8);
   }
-  &::before { left: 0; width: 50%; }
-  &::after { right: 0; width: 50%; }
+
+  &::before {
+    left: 0;
+    width: 50%;
+  }
+
+  &::after {
+    right: 0;
+    width: 50%;
+  }
 }
 
 .question-box {
@@ -147,8 +160,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
-  
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+
   .question-text {
     font-size: 1.1rem;
     font-family: Arial, sans-serif;
@@ -170,8 +183,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  &::before, &::after {
+
+  &::before,
+  &::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -179,8 +193,16 @@
     background: #c9a752;
     z-index: -1;
   }
-  &::before { left: -10px; width: 30px; }
-  &::after { right: -10px; width: 30px; }
+
+  &::before {
+    left: -10px;
+    width: 30px;
+  }
+
+  &::after {
+    right: -10px;
+    width: 30px;
+  }
 }
 
 .option-btn {
@@ -194,13 +216,13 @@
   font-size: 1rem;
   font-family: Arial, sans-serif;
   transition: all 0.3s ease;
-  
+
   .option-letter {
     color: #c9a752;
     font-weight: bold;
     margin-right: 5px;
     font-family: Georgia, serif;
-    
+
     .q-diamond {
       font-size: 0.7rem;
     }
@@ -209,21 +231,31 @@
   &.selected {
     background: linear-gradient(180deg, #c9a752, #a68132);
     color: black;
-    .option-letter { color: black; }
+
+    .option-letter {
+      color: black;
+    }
   }
 
   &.locked {
     background: #ffaa00;
     border-color: #fff;
     color: #000;
-    .option-letter { color: #000; }
+
+    .option-letter {
+      color: #000;
+    }
   }
 
   &.correct {
     background: #28a745;
     border-color: #fff;
     color: white;
-    .option-letter { color: white; }
+
+    .option-letter {
+      color: white;
+    }
+
     animation: pulse 1s infinite;
   }
 
@@ -231,7 +263,10 @@
     background: #dc3545;
     border-color: #fff;
     color: white;
-    .option-letter { color: white; }
+
+    .option-letter {
+      color: white;
+    }
   }
 
   &.disabled {
@@ -243,6 +278,7 @@
 .action-bar {
   margin-top: 10px;
   margin-bottom: 5px;
+
   .lock-btn {
     --background: linear-gradient(90deg, #ffcf40, #ffaa00);
     --color: #110d21;
@@ -255,8 +291,11 @@
 /* Poll Modal */
 .poll-overlay {
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,38 +308,38 @@
   align-items: center;
   justify-content: center;
   min-height: 250px;
-  
+
   .dialing-state {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #ffcf40;
-    
+
     .pulsing-phone {
       font-size: 80px;
       animation: pulse 1s infinite;
       margin-bottom: 20px;
     }
   }
-  
+
   .friend-response {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
-    
+
     .friend-avatar {
       font-size: 60px;
       color: #c9a752;
     }
-    
+
     .friend-quote {
       font-size: 1.2rem;
       font-style: italic;
       margin: 20px 0;
       color: #fff;
     }
-    
+
     ion-button {
       --background: #28a745;
       margin-top: 10px;
@@ -315,16 +354,18 @@
   border: 2px solid #ffcf40;
   text-align: center;
   width: 80%;
-  
-  h2 { color: #ffcf40; }
-  
+
+  h2 {
+    color: #ffcf40;
+  }
+
   .bars {
     display: flex;
     justify-content: space-around;
     height: 150px;
     align-items: flex-end;
     margin: 20px 0;
-    
+
     .bar-container {
       display: flex;
       flex-direction: column;
@@ -332,7 +373,7 @@
       height: 100%;
       justify-content: flex-end;
       width: 40px;
-      
+
       .bar {
         background: #ffcf40;
         width: 100%;
@@ -341,7 +382,7 @@
         align-items: flex-start;
         justify-content: center;
         transition: height 1s;
-        
+
         .percent {
           font-size: 0.7rem;
           color: #000;
@@ -349,15 +390,27 @@
           margin-top: 5px;
         }
       }
-      .letter { margin-top: 5px; color: white; }
+
+      .letter {
+        margin-top: 5px;
+        color: white;
+      }
     }
   }
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 600px) {
@@ -394,10 +447,11 @@
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #c9a752 transparent;
-  
+
   &::-webkit-scrollbar {
     width: 6px;
   }
+
   &::-webkit-scrollbar-thumb {
     background-color: #c9a752;
     border-radius: 10px;
@@ -417,26 +471,27 @@
   padding: 5px 20px;
   font-size: 1.1rem;
   font-weight: bold;
-  color: #c9a752; /* KBC gold */
+  color: #c9a752;
+  /* KBC gold */
   font-family: Georgia, serif;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
   margin-bottom: 2px;
   border-radius: 30px;
-  
+
   .q-num {
     text-align: right;
   }
-  
+
   .q-dot {
     text-align: center;
     font-size: 0.8rem;
   }
-  
+
   .q-prize {
     text-align: left;
     padding-left: 10px;
   }
-  
+
   &.milestone {
     color: #ffffff;
     font-size: 1.2rem;
@@ -463,7 +518,7 @@
   justify-content: center;
   gap: 15px;
   margin-bottom: 20px;
-  
+
   .lifeline-icon-wrapper {
     position: relative;
     width: 60px;
@@ -487,6 +542,30 @@
       color: red;
       font-size: 40px;
       opacity: 0.8;
+    }
+  }
+}
+
+.question-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: -15px; /* Pulls question box up slightly to overlap */
+  z-index: 5;
+  position: relative;
+
+  .question-img {
+    height: 160px;
+    width: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 15px rgba(235, 175, 43, 0.3);
+    transition: filter 1s ease-out;
+    
+    &.blurry {
+      filter: blur(6px);
     }
   }
 }
